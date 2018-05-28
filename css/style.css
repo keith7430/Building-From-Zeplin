@@ -1,0 +1,2218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: HKGrotesk;
+    
+}
+.icon1{
+  display: none;
+}
+
+.closebtn {
+
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    display: none !important;
+}
+
+
+.fa {
+    position: absolute;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    top: 45px;
+    right: 40px;
+}
+
+.nav{
+  margin:18px;
+}
+
+.container{
+  margin-right: auto;
+  margin-left:  auto;
+  width: 100%;
+  max-width: 100%;
+  padding-right: 10px;
+  padding-left:  10px; 
+}
+
+/* Beginning nav Bar Section
+===================================*/
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 20px 70px;  
+  top: 0; 
+  width: 100%;
+  vertical-align: middle;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #0c225f;
+  text-align: center;
+  padding: 1px;
+  text-decoration: none;
+  font-size: 19px;
+  text-align: center; 
+  margin: 20px;
+}
+/*.topnav a:hover {background-color: #ddd;color: black;}*/
+.active {background-color: transparent; color: white;}
+.topnav .icon {display: none;}
+.topnav p{
+  text-decoration: none;
+}
+.logo-wrap {  float: left; }
+.logo { object-fit: contain;padding-bottom: 10px;}
+.logo-wrap img{position: relative; margin-left: 10px;margin-right: 40px;padding-bottom: 10px;}
+.Phone {      
+    margin-right: 6px;
+    left: 6px;  display: inline-block;
+    max-width: 230px;
+    max-height: 95px;
+    width: 13px;
+    height: auto;
+    position: relative;
+    top: 3px;
+    object-fit: contain;}
+
+
+/*End Nv Bar Section
+===================================*/
+
+
+/*Beginning In Pursuite Modal Section 
+========================================*/
+.In-Pursuite-Wrap{width: 100%;height: 700px; position: relative;}
+.bck-image{
+  background-image: url("../img/nick-karvounis-381270-unsplash.jpg");
+  position: relative;
+  background-position: center;
+}
+.Rectangle { width: 100%;position: absolute;right: 0;bottom: 0;top: 0;left: 0;object-fit: contain;}
+.hero-content { padding: 234px; position: absolute;}
+.hero-content:after{top: 4px; height: -webkit-calc(100% - 10px); height: calc(100% - 10px)}
+.In-pursuit-of-a-heal {width: 686px; font-size: 45px;font-weight: bold; line-height: 1.8;text-align: left;color: #0c225f;}
+.PharmaDynamics-is-a {width: 686px;/*height: 68px;*/font-size: 24px;font-weight: 10;line-height: 1.42;text-align: left;color: #0c225f; }
+.PharmaDynamics-is-a .text-style-1 {font-weight: 10;}
+.Rectangle-Copy { width:100%; position: absolute;right: 0;bottom: 0;object-fit: contain;}
+.Rectangle-Copy img{float: right; width: 600px;}
+.arrow-simple {  padding-top: 500px;padding-left: 240px;position: absolute;object-fit: contain;}
+{  width: 100%;display: block;position: relative;}
+.transparent-image::after {
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+/*End In Pursuite Modal Section */
+
+
+/*Beginning Partners Modal Section 
+=======================================*/
+
+.partners {width: 100%; vertical-align: middle;padding: 30px 80px;margin-left: auto;margin-right: auto;text-align: center; background-color: white;}
+.partnertext {color: #347bd9;font-size: 18px;display: inline-block;}
+.partners img {max-height: 95px;vertical-align: middle; padding: 0 30px;margin-left: 100px;}
+
+/*End Partners Modal Section 
+=======================================*/
+
+
+
+/*Beginning Rectangle-2 Modal Section 
+=======================================*/
+
+.Rectangle-2 {width: 100%;height: 550px;background-color: #f7f7f9;}
+.pexels-photo-736716 {width: 826px;height: 550px;object-fit: contain;}
+.pexels-photo-736716 img {height: 550px; width: 826px; max-width: 300px; max-height: 300px;}
+.pexels-wrap{width: 100%;}
+.diabetes-section{ width: 100%; padding: 80px;}
+.Customer-story { width: 505px; height: 30px;  font-size: 22px; font-weight: 500; line-height: 1.36; text-align: left; color: #347bd9; }
+.Dealing-with-diabete { width: 505px; font-size: 50px;line-height: 1.3;text-align: left;color: #0c225f;padding-bottom: 20px; padding-top: 20px;}
+.PharmaDynamics-helpe {width: 505px;height: 56px;font-size: 20px;font-weight: 300;line-height: 1.4;text-align: left;color: #0c225f;}
+.PharmaDynamics-helpe .text-style-1 {font-weight: 500;}
+
+/*End Rectangle-2 Modal Section
+=======================================*/
+
+
+
+/*Rectangle copy 2 modal section
+==================================*/
+
+.Rectangle-2-Copy {width: 100%;padding: 100px;height: 246px;background-color: #0c225f;}
+.layer {width: 146px;height: 90px;font-size: 75px;font-weight: 500;font-style: normal;font-stretch: normal;letter-spacing: normal;text-align: left;color: #9fb8ff;float: left;margin-left: 50px;}
+.fill-271 {   
+     width: 55px;
+    height: 25px;
+    position: relative;
+    top: 15px;
+    margin-left: 20px;
+    vertical-align: middle;
+    object-fit: contain;
+    display: block;
+}
+
+.PharmaDynamics-aver {width: 412px;height: 58px;font-size: 20px;font-weight: 500;font-style: normal;font-stretch: normal;line-height: 1.45;letter-spacing: normal;text-align: left;color: #ffffff;}
+.PharmaDynamics-aver p{width: 412px;font-size: 20px;font-weight: 500;font-style: normal;font-stretch: normal;line-height: 1.45;letter-spacing: normal;text-align: left;color: #ffffff;float: left;margin-left: 100px;}
+
+  /* // End Rectangle Copy 2 Modal Section 
+ ========================================== */
+
+
+
+/*Beginning Rectangle-2-Copy-2 Modal Section 
+============================================*/
+
+.Rectangle-2-Copy-2 {padding: 50px; width: 100%;height: 896px;background-color: #9fb8ff;border-bottom-right-radius: 90% 30%;}
+.Rectangle-2-Copy-2-wrap{width: 100%; padding: 80px;}
+.Our-products { margin-left: 230px; font-family: HKGrotesk;font-size: 22px;font-weight: 500;line-height: 1.36;text-align: left;color: #ffffff;}
+.We-have-10-market-le {margin-left: 230px; width: 1226px; font-family: HKGrotesk;font-size:50px;line-height: 1.3;text-align: left;color: #0c225f;padding-top: 20px;}
+.Heart-Health-Diabete {font-size: 15px;font-family: HKGrotesk; text-align: center; color: #4a4a4a;}
+.Health-Section-Wrap{width: 100%; padding: 100px;  margin-left: 100px;}
+.Heart-Health-Wrap{border-radius: 4px;padding: 15px; background-color: #ffffff; margin: 30px;}
+.Discover-Our-product .text-style-1 {letter-spacing: 1.3px;}
+.arrow-btn { /* Adjust these values accordingly */position: relative;   top: 2px;left: 10px;  object-fit: contain;}
+.Discover-Our-product {  margin-left: 320px;font-family: HKGrotesk;font-size: 18px;font-weight: 500;line-height: 8.67;letter-spacing: 1.6px;text-align: left; color: #ffffff;}
+.grp1{width: 24%;float: left;}
+.fill-271 {   
+    width: 55px;
+    height: 25px;
+    position: relative;
+    top: 15px;
+    margin-left: 20px;
+    vertical-align: middle;
+    object-fit: contain;
+    display: block;
+}
+.button {
+    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+    width: 322px;
+    height: 55px;
+    background-color: #ffffff; /* Green */
+    border-radius: 5px; 
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-family: HKGrotesk;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 90px;
+    cursor: pointer;
+    color: #4a4a4a;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+
+/*End Rectangle-2-Copy-2 Modal Section 
+=============================================*/
+
+
+/*Beginning Rectangle-Copy-3 footer Section
+============================================*/
+.contact-details-wrap{ padding: 160px; width: 100%;height: 81px;background-color: #ffffff; }
+.Give-us-a-call-0860-1 {font-family: HKGrotesk; font-size: 22px;font-weight: 500;text-align: left; color: #0c225f;padding-bottom: 20px;}
+/*.Give-us-a-call-0860-1 a{margin-bottom: 20px;}*/
+.Give-us-a-call-0860-1 .text-style-1 {font-weight: normal;}
+.Effective-affordabl {padding-top: 20px; width: 701px;height: 91px;font-family: HKGrotesk; font-size: 30px;font-weight: bold;line-height: 1.27; text-align: left;color: #0c225f;}
+.email-address {width: 388px;height: 24px;font-family: HKGrotesk;font-size: 20px;text-align: left;color: #7ec0ee;}
+/*news letter input style*/
+input[type=text] {outline: none; width: 100%; padding: 15px;    border: none;   }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */color: #7ec0ee;}
+::-moz-placeholder { /* Firefox 19+ */color: #7ec0ee;}
+:-ms-input-placeholder { /* IE 10+ */color: #7ec0ee;}
+:-moz-placeholder { /* Firefox 18- */color: #7ec0ee;}
+hr{ width: 408px;  border: solid 1px #979797; margin-bottom: 25px}
+/*end newsletter input style*/
+.Newsletter {width: 408px;height: 53px;font-family: HKGrotesk;font-size: 22px;font-weight: bold;line-height: 1.73;text-align: left;color: #0c225f;}
+.btn{outline: none; border: none; background-color: inherit;padding: 14px 28px;font-size: 16px;cursor: pointer; display: inline-block;}
+.Submit {float: right; height: 24px;font-family: HKGrotesk;font-size: 20px;font-weight: 500;text-align: right;color: #0c225f;}
+.Home-Who-We-Are-Prod a{ font-family: HKGrotesk;font-size: 18px;text-align: center;float: left;color: #0c225f;padding:  6px; text-decoration: none; }
+.Home-We-Are-Prod-Wrap{margin-top: 90px; margin-left: 150px; width: 100%; height: 200px; }
+.Home-Who-We-Are-Prod { background: #ffffff;}
+.Home-Who-We-Are-Prod-Social{width: 100%; margin-right: 245px; height: 21px;font-family: HKGrotesk;font-size: 18px;text-align: right;color: #0c225f;float: right;}
+.Home-Who-We-Are-Prod-Social a{margin: 10px;}
+.details-wrap{margin: 10px;}
+.logo-icon{float: left; margin-right: 10px;}
+.social-icons{width: 40px;height: 40px;object-fit: contain;}
+.footer{width: 100%; height: 801px;}
+.news-wrap{margin-left: 395px;}
+.footer-nav {margin-left: 328px;font-family: HKGrotesk;font-size: 18px;font-weight: 500;line-height: 1.67;letter-spacing: 1.6px;text-align: left; color: #ffffff;}
+/*End Rectangle-Copy-3 footer Section
+==============================================*/
+
+/*Columns Sectiom
+=============================*/
+.row:after {content: "";display: table;clear: both;}
+.grp1:after {content: "";display: table;clear: both;}
+.col{width: 100%;padding: 10px;margin: auto;}
+.col-2{float: left; width: 50%;}
+.col-3{padding: 1px;width: 32.33%;float: left;margin: 1px;}
+.col-4{ padding: 10px; width: 25%; float: left;}
+.col-6{  padding: 10px;  width: 14.66%; float: left;  margin: 5px; }
+.col-left { float: left; width: 75%;}
+.col-right {  float: left; width: 25%;  padding-left: 20px;}
+.col-1 {width: 8.33%; padding: 10px;}
+.col-5 {width: 41.66%; padding: 10px;}
+.col-6 {width: 50%; padding: 10px;}
+.col-7 {width: 58.33%; padding: 10px;}
+.col-8 {width: 66.66%; padding: 10px;}
+.col-9 {width: 75%; padding: 10px;}
+.col-10 {width: 83.33%; padding: 10px;}
+.col-11 {width: 91.66%; padding: 10px;}
+.col-12 {width: 100%; padding: 10px;}
+
+/*End Columns Section
+===================================*/
+
+
+
+/*=======================================================================
+Media quries for responsive column display 
+========================================================================*/
+
+ @media only screen and (max-width: 767px) and (min-width: 326px){
+.col,.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.c7,.col-8,.col-9,.col-10,.col-11,.col-12 {
+    width: 100%;
+    padding: 0;
+    float: none;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px){
+.col,.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12 {
+    width: 100%;
+    float: none;
+  }
+}
+
+/*=======================================================================
+Media quries for responsive navigation menu between 900 and 600 display 
+========================================================================*/
+@media only screen and (max-width: 900px) {
+  
+  .nav a{display: none;}
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    width: 100%;
+    max-width: 206px;
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .nav a{display: none;}
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
+/*==========================================================
+side nav
+==============================================================*/
+.icon1{
+  display: none;
+  top: 45px;
+  right: 40px;
+}
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    display: none !important;
+}
+.hide{
+visibility: hidden;
+display: none;
+}
+
+
+
+/*@media only screen and (max-width: 500px) and (min-width: 100px){
+  .logo-wrap img {
+    width: 100%;
+    margin: 60px;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 10px;
+}
+  .hide{
+    visibility: visible !important;
+    display: block  !important;
+  }
+  .sidenav {
+    width: 100%;
+    height: auto;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.icon1{
+  visibility: visible;
+  display: block;
+  top: 45px;
+  right: 40px;
+}
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    display: block !important;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #0c225f;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    
+}
+
+}*/
+
+/*============================================================
+end side nav
+===============================================================*/
+
+ /* ================================================
+ larger devices layout
+ ================================================*/ 
+
+
+/* When the width is between 1400px and 900px OR above 900px - change the appearance of <who we are navigation> */
+@media screen and (max-width: 1400px) and (min-width: 900px){
+
+  /*Beginning Partners Modal Section 
+=======================================*/
+.partners {
+  height: auto; 
+  width: 100%; 
+  vertical-align: middle;
+  padding: 30px 80px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
+  background-color: white;
+}
+.partnertext { 
+  color: #347bd9;
+  font-size: 18px;
+  display: inline-block;
+}
+.partners img { 
+  object-fit: contain; 
+  max-height: 95px;
+  vertical-align: middle; 
+  padding: 0 30px;
+  margin-left: 10px;
+}
+
+/*End Partners Modal Section 
+=======================================*/
+
+
+/* Beginning nav Bar Section
+===================================*/
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 20px 0px;  
+  top: 0; width: 100%;
+  vertical-align: middle;
+}
+.topnav a { 
+  float: left;
+  display: block;
+  color: #0c225f;
+  text-align: center;
+  padding: 1px;
+  text-decoration: none;
+  font-size: 19px;
+  text-align: center; 
+  margin: 10px;
+}
+.active {background-color: transparent; color: white;}
+.topnav .icon {display: none;}
+
+.logo-wrap {  float: left; }
+.logo { object-fit: contain;padding-bottom: 10px;}
+.logo-wrap img{position: relative; margin-left: 10px;margin-right: 40px;padding-bottom: 10px;}
+.Phone {      
+    margin-right: 6px;
+    left: 6px;  display: inline-block;
+    max-width: 230px;
+    max-height: 95px;
+    width: 13px;
+    height: auto;
+    position: relative;
+    top: 3px;
+    object-fit: contain;
+  }
+/*End Nav Bar Section
+===================================*/
+
+
+/*Beginning In Pursuite Modal Section 
+========================================*/
+.In-Pursuite-Wrap{width: 100%;height: 700px; position: relative;}
+.In-pursuit-wrapper{padding: 59px;}
+.Rectangle {
+  width: 100%; 
+  max-width: 1031px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;object-fit: contain;
+}
+.Rectangle img{width: 100%; max-width: 591px;}
+.hero-content { padding: 200px; position: absolute;}
+.hero-content:after{top: 4px; height: -webkit-calc(100% - 10px); height: calc(100% - 10px)}
+.In-pursuit-of-a-heal {
+    width: 420px;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.8;
+    text-align: left;
+    color: #0c225f;
+  }
+.PharmaDynamics-is-a {
+    width: 100%;
+    max-width: 502px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.42;
+    text-align: left;
+    color: #0c225f;
+  }
+.PharmaDynamics-is-a .text-style-1 {font-weight: 10;}
+.Rectangle-Copy { width:100%; position: absolute;right: 0;bottom: 0;object-fit: contain;}
+.Rectangle-Copy img{float: right; width: 500px;}
+.arrow-simple {  padding-top: 500px;padding-left: 240px;position: absolute;object-fit: contain;}
+{  width: 100%;display: block;position: relative;}
+.transparent-image::after {
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+.bck-image{
+    background-image: url("../img/nick-karvounis-381270-unsplash.jpg");
+    width: 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+/*End In Pursuite Modal Section */
+
+
+/*Beginning Rectangle-2 Modal Section 
+=======================================*/
+.Rectangle-2 {width: 100%;height: auto;background-color: #f7f7f9;}
+.pexels-photo-736716 {width: 100%;height: auto;object-fit: contain;}
+.pexels-photo-736716 img {height: 552px; width: 100%;}
+.pexels-wrap{width: 100%;}
+.diabetes-section{     
+    width: 100%;
+    padding: 40px;}
+.Customer-story { 
+  width: 100%; 
+  height: auto;  
+  font-size: 20px; 
+  font-weight: 500; 
+  line-height: 1.36; 
+  text-align: left; 
+  color: #347bd9; 
+}
+.Dealing-with-diabete {     
+    width: 100%;
+    font-size: 40px;
+    line-height: 1.3;
+    text-align: left;
+    color: #0c225f;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+.PharmaDynamics-helpe {
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+  text-align: left;
+  color: #0c225f;
+}
+.PharmaDynamics-helpe .text-style-1 {font-weight: 500;}
+/*End Rectangle-2 Modal Section
+=======================================*/
+
+
+/*Rectangle copy 2 modal section
+==================================*/
+.Rectangle-2-Copy {overflow: hidden; width: 100%;padding: 80px;height: auto;background-color: #0c225f;}
+.layer { 
+  margin:40px; 
+  width: 146px;
+  height: auto;
+  font-size: 75px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9fb8ff;
+  float: left;
+  margin-left: 180px;
+}
+.PharmaDynamics-aver {
+  width: 412px;
+  height: auto;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.PharmaDynamics-aver p{
+  width: 412px;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  float: left;
+  margin-left: 60px;
+}
+  /* // End Rectangle Copy 2 Modal Section 
+ ===================================*/
+
+
+ /*Beginning Rectangle-2-Copy-2 Modal Section 
+============================================*/
+.Rectangle-2-Copy-2 {   
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    background-color: #9fb8ff;
+    border-bottom-right-radius: 90% 30%;
+  }
+.Rectangle-2-Copy-2-wrap{width: 100%; padding: 80px;}
+.Our-products {
+  width: 100%; 
+  margin-left: 40px; 
+  font-family: HKGrotesk;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.36;
+  text-align: left;
+  color: #ffffff;
+}
+.We-have-10-market-le {   
+    width: 100%;
+    margin-left: 40px;
+    font-family: HKGrotesk;
+    font-size: 40px;
+    line-height: 1.3;
+    text-align: left;
+    color: #0c225f;
+    padding-top: 20px;
+  }
+.Heart-Health-Diabete {font-size: 15px;font-family: HKGrotesk; text-align: center; color: #4a4a4a;}
+.Health-Section-Wrap{width: 100%; padding: 10px;  margin-left: 0px;}
+.Heart-Health-Wrap{border-radius: 4px;padding: 15px; background-color: #ffffff; margin: 30px;}
+.Discover-Our-product .text-style-1 {letter-spacing: 1.3px;}
+.arrow-btn { /* Adjust these values accordingly */position: relative;   top: 2px;
+  left: 10px;  object-fit: contain;}
+.Discover-Our-product {     
+    width: 100%;
+    margin-left: 150px;
+    font-family: HKGrotesk;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 5.7;
+    letter-spacing: 1.6px;
+    text-align: left;
+    color: #ffffff;
+  }
+.grp1{
+      width: 22%;
+      margin: 20px;
+  }
+.fill-271 {   
+    width: 25px;
+    height: 20px;
+    position: relative;
+    top: 15px;
+    margin-left: 20px;
+    vertical-align: middle;
+    object-fit: contain;
+    display: block;
+}
+.button {
+    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+    background-color: #ffffff; /* Green */
+    border-radius: 5px; 
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-family: HKGrotesk;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 90px;
+    cursor: pointer;
+    color: #4a4a4a;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+
+}
+
+/*End Rectangle-2-Copy-2 Modal Section 
+=============================================*/
+
+
+/*Beginning Rectangle-Copy-3 footer Section
+============================================*/
+.contact-details-wrap{     
+    padding: 60px;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+     }
+.Give-us-a-call-0860-1 {
+  width: 100%; 
+  font-family: HKGrotesk; 
+  font-size: 21Spx;
+  font-weight: 500;
+  text-align: left; 
+  color: #0c225f;
+  padding-bottom: 20px;
+}
+.Give-us-a-call-0860-1 .text-style-1 {font-weight: normal;}
+.Effective-affordabl {
+  padding-top: 20px; 
+  width: 100%;
+  max-width: 445px;
+  height: auto;
+  font-family: HKGrotesk; 
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.27; 
+  text-align: left;
+  color: #0c225f;
+}
+.email-address {
+  width: 100%;
+  height: 24px;
+  font-family: HKGrotesk;
+  font-size: 20px;
+  text-align: left;
+  color: #7ec0ee;
+}
+
+/*news letter input style*/
+input[type=text] {outline: none; width: 100%; padding: 15px;    border: none;   }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */color: #7ec0ee;}
+::-moz-placeholder { /* Firefox 19+ */color: #7ec0ee;}
+:-ms-input-placeholder { /* IE 10+ */color: #7ec0ee;}
+:-moz-placeholder { /* Firefox 18- */color: #7ec0ee;}
+hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
+/*end newsletter input style*/
+
+.Newsletter {
+  width: 100%;
+  height: 53px;
+  font-family: HKGrotesk;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.73;
+  text-align: left;
+  color: #0c225f;
+}
+.btn{
+  outline: none; 
+  border: none; 
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer; 
+  display: inline-block;
+}
+.Submit {
+  width: auto; 
+  float: right; 
+  height: 24px;
+  font-family: HKGrotesk;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: right;
+  color: #0c225f;
+}
+.Home-Who-We-Are-Prod a{
+    /*width: 100%;*/
+    font-family: HKGrotesk;
+    font-size: 17px;
+    text-align: center;
+    float: left;
+    color: #0c225f;
+    padding: 4px;
+    text-decoration: none;
+     }
+.Home-We-Are-Prod-Wrap{margin-top: 90px; margin-left: 0px; width: 100%; height: 200px; }
+.Home-Who-We-Are-Prod { background: #ffffff;}
+.Home-Who-We-Are-Prod-Social{
+    width: 100%;
+    margin-right: 45px;
+    height: 20px;
+    font-family: HKGrotesk;
+    font-size: 10px;
+    text-align: right;
+    color: #0c225f;
+    float: right;
+  }
+.Home-Who-We-Are-Prod-Social a{width: 100%; margin: 10px;}
+.details-wrap{margin: 10px;}
+.logo-icon{    margin-left: 40px;float: left; margin-right: 10px;}
+.social-icons{width: 35px;height: 35px;object-fit: contain;}
+.footer{width: 100%; height: 801px;}
+.news-wrap{padding-top:1px;  width: 100%; margin-left: 0px;}
+.footer-nav {
+  margin-left: 328px;
+  font-family: HKGrotesk;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.67;
+  letter-spacing: 1.6px;
+  text-align: left; 
+  color: #ffffff;
+}
+/*End Rectangle-Copy-3 footer Section
+==============================================*/
+
+}
+
+
+/*larger devices layout*/
+/* When the width is between 600px and 900px OR above 1100px - change the appearance of <who we are navigation> */
+@media screen and (max-width: 900px) and (min-width: 600px){
+
+  /*Beginning Partners Modal Section 
+=======================================*/
+.partners {
+  height: auto; 
+  width: 100%; 
+  vertical-align: middle;
+  padding: 30px 80px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
+  background-color: white;
+}
+.partnertext {width: 100%; color: #347bd9;font-size: 18px;display: inline-block;}
+.partners img {
+  width: 100%; object-fit: contain; 
+  max-height: 80px;
+  vertical-align: middle; 
+  padding: 0 30px;
+  margin-left: 10px;
+}
+
+/*End Partners Modal Section 
+=======================================*/
+
+
+/* Beginning nav Bar Section
+===================================*/
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 20px 240px;  
+  top: 0; 
+  width: 100%;
+  vertical-align: middle;
+}
+.topnav a {
+  width: 100%; 
+  float: left;
+  color: #0c225f;
+  text-align: center;
+  padding: 1px;
+  text-decoration: none;
+  font-size: 17px;
+  font-size: 19px;
+  text-align: center; 
+  margin: 20px;
+}
+
+.active {background-color: transparent; color: white;}
+.topnav .icon {display: none;}
+
+.logo-wrap {  float: left; }
+.logo { object-fit: contain;padding-bottom: 10px;}
+.logo-wrap img{width: 100%; position: relative; margin-left: 10px;margin-right: 40px;padding-bottom: 10px;}
+.Phone {      
+    margin-right: 6px;
+    left: 6px;  display: inline-block;
+    max-width: 230px;
+    max-height: 95px;
+    width: 13px;
+    height: auto;
+    position: relative;
+    top: 3px;
+    object-fit: contain;
+  }
+
+/*End Nv Bar Section
+===================================*/
+
+
+/*Beginning In Pursuite Modal Section 
+========================================*/
+.In-Pursuite-Wrap{width: 100%;height: 700px; position: relative;}
+.In-pursuit-wrapper{padding: 0px;}
+.Rectangle { width: 100%;position: absolute;right: 0;bottom: 0;top: 0;left: 0;object-fit: contain;}
+.Rectangle img{width: 100%; display: none;}
+.hero-content { padding: 200px; position: absolute;}
+.hero-content:after{top: 4px; height: -webkit-calc(100% - 10px); height: calc(100% - 10px)}
+.In-pursuit-of-a-heal {
+  width: 100%; 
+  max-width: 686px; 
+  font-size: 35px;
+  font-weight: bold; 
+  line-height: 1.8;
+  text-align: left;
+  color: #0c225f;
+}
+.PharmaDynamics-is-a {
+  width: 100%;
+  height: auto;
+  font-size: 21px;
+  font-weight: 10;
+  line-height: 1.42;
+  text-align: left;
+  color: #0c225f; 
+}
+.PharmaDynamics-is-a .text-style-1 {font-weight: 10;}
+.Rectangle-Copy { width:100%; position: absolute;right: 0;bottom: 0;object-fit: contain;}
+.Rectangle-Copy img{float: right; width: 600px; display: none;}
+.arrow-simple {  padding-top: 500px;padding-left: 240px;position: absolute;object-fit: contain;}
+{  width: 100%;display: block;position: relative;}
+.transparent-image::after {
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+.bck-image{
+    background-image: url("../img/nick-karvounis-381270-unsplash.jpg");
+    width: 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+/*End In Pursuite Modal Section */
+
+
+/*Beginning Rectangle-2 Modal Section 
+=======================================*/
+.Rectangle-2 {width: 100%;height: auto;background-color: #f7f7f9;}
+.pexels-photo-736716 {width: 100%;height: auto;object-fit: contain;}
+.pexels-photo-736716 img {height: auto; width: 100%;}
+.pexels-wrap{width: 100%;}
+.diabetes-section{ width: 100%; padding: 80px;}
+.Customer-story { 
+  width: 100%; 
+  height: auto;  
+  font-size: 22px; 
+  font-weight: 500; 
+  line-height: 1.36; 
+  text-align: left; 
+  color: #347bd9; 
+}
+.Dealing-with-diabete { 
+  width: 100%; 
+  font-size: 40px;
+  line-height: 1.3;
+  text-align: left;
+  color: #0c225f;
+  padding-bottom: 20px; 
+  padding-top: 20px;
+}
+.PharmaDynamics-helpe {
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+  text-align: left;
+  color: #0c225f;
+}
+.PharmaDynamics-helpe .text-style-1 {font-weight: 500;}
+
+/*End Rectangle-2 Modal Section
+=======================================*/
+
+
+/*Rectangle copy 2 modal section
+==================================*/
+.Rectangle-2-Copy {
+  overflow: hidden; 
+  width: 100%;
+  padding: 80px;
+  height: auto;
+  background-color: #0c225f;
+}
+.layer { 
+  margin:40px; 
+  max-width: 146px; 
+  width: 100%; 
+  height: auto;
+  font-size: 75px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9fb8ff;
+  float: left;
+  margin-left: 180px;
+}
+
+.PharmaDynamics-aver {
+  width: 412px;
+  height: auto;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.PharmaDynamics-aver p{
+  width: 100%; 
+  max-width: 412px; 
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  float: left;
+  margin-left: 60px;
+}
+
+  /* // End Rectangle Copy 2 Modal Section 
+ ========================================== */
+
+
+ /*Beginning Rectangle-2-Copy-2 Modal Section 
+============================================*/
+.Rectangle-2-Copy-2 {
+  padding: 50px; 
+  width: 100%;
+  height: auto;
+  background-color: #9fb8ff;
+  border-bottom-right-radius: 90% 30%;
+}
+.Rectangle-2-Copy-2-wrap{width: 100%; padding: 80px;}
+.Our-products {
+  width: 100%; 
+  margin-left: 0px; 
+  font-family: HKGrotesk;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.36;
+  text-align: left;
+  color: #ffffff;
+}
+.We-have-10-market-le {
+  width: 100%; 
+  margin-left: 0px; 
+  font-family: HKGrotesk;
+  font-size:50px;
+  line-height: 1.3;
+  text-align: left;
+  color: #0c225f;
+  padding-top: 20px;
+}
+.Heart-Health-Diabete {font-size: 15px;font-family: HKGrotesk; text-align: center; color: #4a4a4a;}
+.Health-Section-Wrap{width: 100%; padding: 10px;  margin-left: 0px;}
+.Heart-Health-Wrap{border-radius: 4px;padding: 15px; background-color: #ffffff; margin: 30px;}
+.Discover-Our-product .text-style-1 {letter-spacing: 1.3px;}
+.arrow-btn { /* Adjust these values accordingly */position: relative;   top: 2px;
+  left: 10px;  object-fit: contain;}
+.Discover-Our-product { 
+  width: 100%; 
+  margin-left: 98px;
+  font-family: HKGrotesk;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 8.67;
+  letter-spacing: 1.6px;
+  text-align: left; 
+  color: #ffffff;
+}
+.grp1{width: 100%;}
+.fill-271 {   
+    width: 55px;
+    height: 25px;
+    position: relative;
+    top: 15px;
+    margin-left: 20px;
+    vertical-align: middle;
+    object-fit: contain;
+    display: block;
+}
+.button {
+    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+    background-color: #ffffff; 
+    border-radius: 5px; 
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-family: HKGrotesk;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 90px;
+    cursor: pointer;
+    color: #4a4a4a;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+
+}
+
+
+/*End Rectangle-2-Copy-2 Modal Section 
+=============================================*/
+
+/*Beginning Rectangle-Copy-3 footer Section
+============================================*/
+
+.contact-details-wrap{ padding: 160px; width: 100%;height: 81px;background-color: #ffffff; }
+.Give-us-a-call-0860-1 {
+  width: 100%; 
+  font-family: HKGrotesk; 
+  font-size: 22px;
+  font-weight: 500;
+  text-align: left; 
+  color: #0c225f;
+  padding-bottom: 20px;
+}
+
+.Give-us-a-call-0860-1 .text-style-1 {font-weight: normal;}
+.Effective-affordabl {
+  padding-top: 20px; 
+  width: 100%;
+  height: auto;
+  font-family: HKGrotesk; 
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.27; 
+  text-align: left;
+  color: #0c225f;
+}
+.email-address {
+  width: 100%;
+  height: 24px;
+  font-family: HKGrotesk;
+  font-size: 20px;
+  text-align: left;
+  color: #7ec0ee;
+}
+
+/*news letter input style*/
+input[type=text] {outline: none; width: 100%; padding: 15px;    border: none;   }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */color: #7ec0ee;}
+::-moz-placeholder { /* Firefox 19+ */color: #7ec0ee;}
+:-ms-input-placeholder { /* IE 10+ */color: #7ec0ee;}
+:-moz-placeholder { /* Firefox 18- */color: #7ec0ee;}
+hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
+/*end newsletter input style*/
+
+.Newsletter {
+  width: 100%;
+  height: 53px;
+  font-family: HKGrotesk;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.73;
+  text-align: left;
+  color: #0c225f;
+}
+.btn{
+  outline: none; 
+  border: none; 
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer; 
+  display: inline-block;
+}
+.Submit {
+  width: auto; 
+  float: right; 
+  height: 24px;
+  font-family: HKGrotesk;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: right;
+  color: #0c225f;
+}
+.Home-Who-We-Are-Prod a{ 
+    font-family: HKGrotesk;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+    color: #0c225f;
+    padding: 4px;
+    text-decoration: none;
+  }
+.Home-We-Are-Prod-Wrap{margin-top: 90px; margin-left: 0px; width: 100%; height: 200px; }
+.Home-Who-We-Are-Prod { background: #ffffff;}
+.Home-Who-We-Are-Prod-Social{    
+    width: 100%;
+    margin-left: 98px;
+    height: 21px;
+    font-family: HKGrotesk;
+    font-size: 16px;
+    text-align: left;
+    color: #0c225f;
+    float: left;
+    padding-top: 20px;
+  }
+.Home-Who-We-Are-Prod-Social a{width: 100%; margin: 10px;}
+.details-wrap{margin: 100px;}
+.logo-icon{float: left; margin-right: 10px;}
+.social-icons{width: 30px;height: 30px;object-fit: contain;}
+.footer{width: 100%; height: 801px;}
+.news-wrap{padding-top:30px;  width: 100%; margin-left: 0px;}
+.footer-nav {
+  margin-left: 328px;
+  font-family: HKGrotesk;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.67;
+  letter-spacing: 1.6px;
+  text-align: left; 
+  color: #ffffff;
+}
+/*End Rectangle-Copy-3 footer Section
+==============================================*/
+.call-nav p{
+   float: none !important;
+  }
+}
+
+
+/*==============================================
+================================================*/
+ /* For mobile phones: */
+ /*=============================================
+ ===============================================*/
+
+@media only screen and (max-width: 762px) and (min-width: 362px) {
+
+  /*Beginning Partners Modal Section 
+=======================================*/
+
+.partners {
+  height: auto; 
+  width: 100%; 
+  vertical-align: middle;
+  padding: 30px 80px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
+  background-color: white;
+}
+.partnertext {color: #347bd9;font-size: 18px;display: inline-block;}
+.partners img {
+    width: 100%;
+    max-height: 95px;
+    vertical-align: middle;
+    padding: 0 50px;
+    margin-left: 10px;
+    object-fit: contain;
+}
+
+/*End Partners Modal Section 
+=======================================*/
+
+
+/* Beginning nav Bar Section
+===================================*/
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 20px 220px;  
+  top: 0; 
+  width: 100%;
+  vertical-align: middle;
+}
+.topnav a {
+  float: left;
+  color: #0c225f;
+  text-align: center;
+  padding: 1px;
+  text-decoration: none;
+  font-size: 17px;
+  font-size: 19px;
+  text-align: center; 
+  margin: 20px;}
+.active {background-color: transparent; color: white;}
+.topnav .icon {display: none;}
+
+.logo-wrap {  float: left; }
+.logo { object-fit: contain;padding-bottom: 10px;}
+.logo-wrap img{position: relative; margin-left: 10px;margin-right: 40px;padding-bottom: 10px;}
+.Phone {      
+    margin-right: 6px;
+    left: 6px;  display: inline-block;
+    max-width: 230px;
+    max-height: 95px;
+    width: 13px;
+    height: auto;
+    position: relative;
+    top: 3px;
+    object-fit: contain;}
+
+
+/*End Nv Bar Section
+===================================*/
+
+
+/*Beginning In Pursuite Modal Section 
+========================================*/
+.In-Pursuite-Wrap{width: 100%;height: 700px; position: relative;}
+.In-pursuit-wrapper{padding: 0px;}
+.Rectangle { width: 100%;position: absolute;right: 0;bottom: 0;top: 0;left: 0;object-fit: contain;}
+.Rectangle img{width: 100%;display: none;}
+.hero-content {width: 100%; padding: 100px; position: absolute;}
+.hero-content:after{top: 4px; height: -webkit-calc(100% - 10px); height: calc(100% - 10px)}
+.In-pursuit-of-a-heal {
+  width: 100%; 
+  font-size: 35px;
+  font-weight: bold; 
+  line-height: 1.8;
+  text-align: left;
+  color: #0c225f;
+}
+.PharmaDynamics-is-a {
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+  font-weight: 10;
+  line-height: 1.42;
+  text-align: left;
+  color: #0c225f; 
+}
+.PharmaDynamics-is-a .text-style-1 {font-weight: 10;}
+.Rectangle-Copy { width:100%; position: absolute;right: 0;bottom: 0;object-fit: contain;}
+.Rectangle-Copy img{float: right; width: 100%;display: none;}
+.arrow-simple { display: none;  padding-top: 500px;padding-left: 240px;position: absolute;object-fit: contain;}
+{  width: 100%;display: block;position: relative;}
+.transparent-image::after {
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+.bck-image{
+    background-image: url("../img/nick-karvounis-381270-unsplash.jpg");
+    width: 100%;
+    height: 500px;
+    /* display: contents; */
+    /* position: relative; */
+    background-size: auto 100%;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
+/*End In Pursuite Modal Section */
+
+
+/*Beginning Rectangle-2 Modal Section 
+=======================================*/
+
+.Rectangle-2 {width: 100%;height: auto;background-color: #f7f7f9;}
+.pexels-photo-736716 {width: 100%;height: auto;object-fit: contain;}
+.pexels-photo-736716 img {height: auto; width: 100%;}
+.pexels-wrap{width: 100%;}
+.diabetes-section{ width: 100%; padding: 80px;}
+.Customer-story { 
+  width: 100%; 
+  height: auto;  
+  font-size: 22px; 
+  font-weight: 500; 
+  line-height: 1.36; 
+  text-align: left; 
+  color: #347bd9; 
+}
+.Dealing-with-diabete { 
+  width: 100%; 
+  font-size: 50px;
+  line-height: 1.3;
+  text-align: left;
+  color: #0c225f;
+  padding-bottom: 20px; 
+  padding-top: 20px;
+}
+.PharmaDynamics-helpe {
+  width: 100%;
+  height: auto;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+  text-align: left;
+  color: #0c225f;
+}
+.PharmaDynamics-helpe .text-style-1 {font-weight: 500;}
+
+/*End Rectangle-2 Modal Section
+=======================================*/
+
+
+/*Rectangle copy 2 modal section
+==================================*/
+
+.Rectangle-2-Copy {overflow: hidden; width: 100%;padding: 90px;height: auto;background-color: #0c225f;}
+.layer {
+  margin:40px; 
+  width: 146px;
+  height: auto;
+  font-size: 75px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9fb8ff;
+  float: left;
+  margin-left: 100px;
+}
+
+.PharmaDynamics-aver {
+  width: 412px;
+  height: auto;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.PharmaDynamics-aver p{
+  width: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  float: left;
+  margin-left: 5px;
+}
+
+  /* // End Rectangle Copy 2 Modal Section 
+ ========================================== */
+
+
+ /*Beginning Rectangle-2-Copy-2 Modal Section 
+============================================*/
+.Rectangle-2-Copy-2 {
+  padding: 50px; 
+  width: 100%;
+  height: auto;
+  background-color: #9fb8ff;
+  border-bottom-right-radius: 90% 30%;
+}
+.Rectangle-2-Copy-2-wrap{width: 100%; padding: 35px;}
+.Our-products {
+  width: 100%;
+  margin-left: 20px; 
+  font-family: HKGrotesk;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.36;
+  text-align: left;
+  color: #ffffff;
+}
+.We-have-10-market-le {    
+    width: 100%;
+    margin-left: 20px;
+    font-family: HKGrotesk;
+    font-size: 45px;
+    line-height: 1.3;
+    text-align: left;
+    color: #0c225f;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+.Heart-Health-Diabete {font-size: 15px;font-family: HKGrotesk; text-align: center; color: #4a4a4a;}
+.Health-Section-Wrap{width: 100%; padding: 4px;  margin-left: 0px;}
+.Heart-Health-Wrap{border-radius: 4px;padding: 15px; background-color: #ffffff; margin: 30px;}
+.Discover-Our-product .text-style-1 {letter-spacing: 1.3px;}
+.arrow-btn { /* Adjust these values accordingly */position: relative;   top: 2px;
+  left: 10px;  object-fit: contain;}
+.Discover-Our-product {   
+    width: 100%;
+    margin-left: 28px;
+    font-family: HKGrotesk;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 8.67;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+.grp1{width: 100%;}
+.fill-271 {   
+    width: 55px;
+    height: 25px;
+    position: relative;
+    top: 15px;
+    margin-left: 20px;
+    vertical-align: middle;
+    object-fit: contain;
+    display: block;
+}
+.button {
+    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-family: HKGrotesk;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 90px;
+    cursor: pointer;
+    color: #4a4a4a;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+
+}
+
+/*End Rectangle-2-Copy-2 Modal Section 
+=============================================*/
+
+
+/*Beginning Rectangle-Copy-3 footer Section
+============================================*/
+.contact-details-wrap{
+    padding: 40px;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+  }
+.Give-us-a-call-0860-1 {    
+    width: 100%;
+    font-family: HKGrotesk;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    color: #0c225f;
+    padding-bottom: 20px;
+  }
+
+
+.Give-us-a-call-0860-1 .text-style-1 {font-weight: normal;}
+.Effective-affordabl {
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+    font-family: HKGrotesk;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.27;
+    text-align: left;
+    color: #0c225f;
+  }
+.email-address {
+  width: 100%;
+  height: 24px;
+  font-family: HKGrotesk;
+  font-size: 20px;
+  text-align: left;
+  color: #7ec0ee;
+}
+
+/*news letter input style*/
+input[type=text] {outline: none; width: 100%; padding: 15px;    border: none;   }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */color: #7ec0ee;}
+::-moz-placeholder { /* Firefox 19+ */color: #7ec0ee;}
+:-ms-input-placeholder { /* IE 10+ */color: #7ec0ee;}
+:-moz-placeholder { /* Firefox 18- */color: #7ec0ee;}
+hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
+/*end newsletter input style*/
+
+.Newsletter {   
+    width: 100%;
+    height: 53px;
+    font-family: HKGrotesk;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.73;
+    text-align: left;
+    color: #0c225f;
+  }
+.btn{
+  outline: none; 
+  border: none; 
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer; 
+  display: inline-block;
+}
+.Submit {
+  width: auto; 
+  float: right; 
+  height: 24px;
+  font-family: HKGrotesk;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: right;
+  color: #0c225f;
+}
+.Home-Who-We-Are-Prod a{ 
+    font-family: HKGrotesk;
+    font-size: 15px;
+    text-align: center;
+    float: left;
+    color: #0c225f;
+    padding: 4px;
+    text-decoration: none;
+     }
+.Home-We-Are-Prod-Wrap{margin-top: 90px; margin-left: 0px; width: 100%; height: 200px; }
+.Home-Who-We-Are-Prod { background: #ffffff;}
+.Home-Who-We-Are-Prod-Social{
+  width: 100%; 
+  margin-right: 150px; 
+  height: 21px;
+  font-family: HKGrotesk;
+  font-size: 18px;
+  text-align: right;
+  color: #0c225f;
+  float: right;
+}
+.Home-Who-We-Are-Prod-Social a{width: 100%; margin: 10px;}
+.details-wrap{margin: 100px;}
+.logo-icon{float: left; margin-right: 10px;}
+.social-icons{width: 30px;height: 30px;object-fit: contain;}
+.footer{width: 100%; height: 801px;}
+.news-wrap{padding-top:30px;  width: 100%; margin-left: 0px;}
+.footer-nav {
+  margin-left: 328px;
+  font-family: HKGrotesk;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.67;
+  letter-spacing: 1.6px;
+  text-align: left; 
+  color: #ffffff;}
+/*End Rectangle-Copy-3 footer Section
+==============================================*/
+
+}
+
+/*==============================================
+================================================ */
+/*MOBILE BETWEEN 100 AND 500 AND MORE*/
+/*==============================================
+================================================ */
+
+@media only screen and (max-width: 500px) and (min-width: 100px) {
+
+  /*Beginning Partners Modal Section 
+=======================================*/
+
+.partners {
+  height: auto; 
+  width: 100%; 
+  vertical-align: middle;
+  padding: 30px 80px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
+  background-color: white;
+}
+.partnertext {color: #347bd9;font-size: 18px;display: inline-block;}
+.partners img {    width: 100%;
+    max-height: 75px;
+    vertical-align: middle;
+    padding: 0 50px;
+    margin-left: 10px;
+    object-fit: contain;
+  }
+
+/*End Partners Modal Section 
+=======================================*/
+
+/* Beginning nav Bar Section
+===================================*/
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 20px 70px;  
+  top: 0; 
+  width: 100%;
+  vertical-align: middle;
+}
+.topnav a {
+  float: left;
+  color: #0c225f;
+  text-align: center;
+  padding: 1px;
+  text-decoration: none;
+  font-size: 17px;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+ }
+/*.topnav a:hover {background-color: #ddd;color: black;}*/
+.active {background-color: transparent; color: white;}
+.topnav .icon {display: none;}
+
+.logo-wrap {  float: left; }
+.logo { object-fit: contain;padding-bottom: 10px;}
+.logo-wrap img{
+    margin: 60px;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 10px;
+  }
+.Phone {      
+    margin-right: 6px;
+    left: 6px;  display: inline-block;
+    max-width: 230px;
+    max-height: 95px;
+    width: 13px;
+    height: auto;
+    position: relative;
+    top: 3px;
+    object-fit: contain;
+  }
+
+
+/*End Nv Bar Section
+===================================*/
+
+/*Beginning In Pursuite Modal Section 
+========================================*/
+.In-Pursuite-Wrap{width: 100%;height: 700px; position: relative;}
+.Rectangle { width: 100%;position: absolute;right: 0;bottom: 0;top: 0;left: 0;object-fit: contain;}
+.Rectangle img{width: 100%; display: none;}
+.hero-content {width: 100%; padding: 90px; position: absolute;}
+.hero-content:after{top: 4px; height: -webkit-calc(100% - 10px); height: calc(100% - 10px)}
+.In-pursuit-of-a-heal {
+  width: 100%;  
+  font-size: 25px;
+  font-weight: bold; 
+  line-height: 1.8;
+  text-align: left;
+  color: #0c225f;
+}
+.PharmaDynamics-is-a {
+    width: 100%;
+    height: auto;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.42;
+    text-align: left;
+    color: #0c225f;
+    }
+.PharmaDynamics-is-a .text-style-1 {font-weight: 10;}
+.Rectangle-Copy { width:100%; position: absolute;right: 0;bottom: 0;object-fit: contain;}
+.Rectangle-Copy img{float: right; width: 100%; display: none;}
+.arrow-simple { display: none;  padding-top: 550px;padding-left: 100px;position: absolute;object-fit: contain;}
+{  width: 100%;display: block;position: relative;}
+.transparent-image::after {
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+.bck-image{
+    background-image: url("../img/nick-karvounis-381270-unsplash.jpg");
+    width: 100%;
+    height: 599px;
+    /* max-width: 800px; */
+    /* display: contents; */
+    position: a;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*End In Pursuite Modal Section */
+
+/*Beginning Rectangle-2 Modal Section 
+=======================================*/
+
+.Rectangle-2 {width: 100%;height: auto;background-color: #f7f7f9;}
+.pexels-photo-736716 {width: 100%;height: auto;object-fit: contain;}
+.pexels-photo-736716 img {height: auto; width: 100%; }
+.pexels-wrap{width: 100%;}
+.diabetes-section{ width: 100%; padding: 80px;}
+.Customer-story {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.36;
+    text-align: left;
+    color: #347bd9;
+  }
+.Dealing-with-diabete {   
+    width: 100%;
+    font-size: 25px;
+    line-height: 1.3;
+    text-align: left;
+    color: #0c225f;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+.PharmaDynamics-helpe {    
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: left;
+    color: #0c225f;
+  }
+
+
+/*End Rectangle-2 Modal Section
+=======================================*/
+
+/*Rectangle copy 2 modal section
+==================================*/
+
+.Rectangle-2-Copy {overflow: hidden; width: 100%;padding: 68px;height: auto;background-color: #0c225f;}
+.layer { 
+    width: 100%;
+    height: auto;
+    font-size: 55px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #9fb8ff;
+    margin: 10px;
+    text-align: center;
+  }
+
+.PharmaDynamics-aver {    
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+.PharmaDynamics-aver p{ 
+    text-align: center; 
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    color: #ffffff;
+    float: left;
+    margin-left: 5px;
+}
+
+  /* // End Rectangle Copy 2 Modal Section 
+ ========================================== */
+
+ /*Beginning Rectangle-2-Copy-2 Modal Section 
+============================================*/
+
+.Rectangle-2-Copy-2 {
+  padding: 50px; 
+  width: 100%;
+  height: auto;
+  background-color: #9fb8ff;
+  border-bottom-right-radius: 90% 30%;
+}
+.Rectangle-2-Copy-2-wrap{
+  width: 100%; 
+  padding: 0px;
+}
+.Our-products {
+  width: 100%; 
+  margin-left: 20px; 
+  font-family: HKGrotesk;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.36;
+  text-align: left;
+  color: #ffffff;
+}
+.We-have-10-market-le {
+    width: 100%;
+    margin-left: 10px;
+    font-family: HKGrotesk;
+    font-size: 30px;
+    line-height: 1.3;
+    text-align: left;
+    color: #0c225f;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+.Heart-Health-Diabete {font-size: 15px;font-family: HKGrotesk; text-align: center; color: #4a4a4a;}
+.Health-Section-Wrap{width: 100%; padding: 5px;  margin-left: 0px;}
+.Heart-Health-Wrap{border-radius: 4px;padding: 15px; background-color: #ffffff; margin: 30px;}
+.Discover-Our-product .text-style-1 {letter-spacing: 1.3px;}
+.arrow-btn {position: relative;   top: 2px;left: 6px;  object-fit: contain;}
+.Discover-Our-product {     
+    width: 100%;
+    margin-left: 0px;
+    font-family: HKGrotesk;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 8;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #ffffff;
+  }
+.grp1{width: 100%;}
+.fill-271 {   
+     width: 55px;
+    height: 25px;
+    position: relative;
+    top: 15px;
+    margin-left: 20px;
+    vertical-align: middle;
+    object-fit: contain;
+    display: block;
+}
+
+.button {
+    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-family: HKGrotesk;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 90px;
+    cursor: pointer;
+    color: #4a4a4a;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+
+}
+
+
+/*End Rectangle-2-Copy-2 Modal Section 
+=============================================*/
+
+
+/*Beginning Rectangle-Copy-3 footer Section
+============================================*/
+.contact-details-wrap{ padding: 10px; width: 100%;height: auto;background-color: #ffffff; }
+.Give-us-a-call-0860-1 {
+    width: 100%;
+    font-family: HKGrotesk;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    color: #0c225f;
+    padding-bottom: 20px;
+  }
+
+.Give-us-a-call-0860-1 .text-style-1 {font-weight: normal;}
+.Effective-affordabl {
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+    font-family: HKGrotesk;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    color: #0c225f;
+  }
+.email-address {
+  width: 100%;
+  height: 24px;
+  font-family: HKGrotesk;
+  font-size: 20px;
+  text-align: left;
+  color: #7ec0ee;
+}
+
+/*news letter input style*/
+input[type=text] {outline: none; width: 100%; padding: 15px;    border: none;   }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */color: #7ec0ee;}
+::-moz-placeholder { /* Firefox 19+ */color: #7ec0ee;}
+:-ms-input-placeholder { /* IE 10+ */color: #7ec0ee;}
+:-moz-placeholder { /* Firefox 18- */color: #7ec0ee;}
+hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
+
+/*end newsletter input style*/
+.Newsletter {    
+    width: 100%;
+    height: 53px;
+    font-family: HKGrotesk;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.7;
+    text-align: left;
+    color: #0c225f;
+  }
+.btn{
+  outline: none; 
+  border: none; 
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer; 
+  display: inline-block;
+}
+.Submit {
+  width: auto; 
+  float: right; 
+  height: 24px;
+  font-family: HKGrotesk;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: right;
+  color: #0c225f;
+}
+.Home-Who-We-Are-Prod a{     
+    font-family: HKGrotesk;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    color: #0c225f;
+    padding: 2px;
+    text-decoration: none; 
+    padding-bottom: 20px;
+  }
+.Home-We-Are-Prod-Wrap{
+  margin-top: 90px; 
+  margin-left: 0px; 
+  width: 100%; 
+  height: 200px; 
+}
+.Home-Who-We-Are-Prod { 
+  background: #ffffff;
+}
+.Home-Who-We-Are-Prod-Social{   
+    width: 100%;
+    margin-right: 18px;
+    height: 21px;
+    font-family: HKGrotesk;
+    font-size: 12px;
+    text-align: center;
+    color: #0c225f;
+    float: right;
+  }
+.Home-Who-We-Are-Prod-Social a{width: 100%; margin: 10px;}
+.details-wrap{margin: 10px;}
+.logo-icon{float: left; margin-right: 10px;}
+.social-icons{    
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+.footer{width: 100%; height: 801px;}
+.news-wrap{padding-top:30px;  width: 100%; margin-left: 0px;}
+.footer-nav {
+  margin-left: 328px;
+  font-family: HKGrotesk;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.67;
+  letter-spacing: 1.6px;
+  text-align: left; 
+  color: #ffffff;
+}
+/*End Rectangle-Copy-3 footer Section
+==============================================*/
+
+
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+  .container{
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container{
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container{
+    width: 100%;
+  }
+}
