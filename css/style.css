@@ -7,6 +7,7 @@ body{
    font-family: HKGrotesk;
     
 }
+
 .icon1{
   display: none;
 }
@@ -20,8 +21,6 @@ body{
     margin-left: 50px;
     display: none !important;
 }
-
-
 .fa {
     position: absolute;
     font: normal normal normal 14px/1 FontAwesome;
@@ -36,6 +35,7 @@ body{
 .nav{
   margin:18px;
 }
+
 
 .container{
   margin-right: auto;
@@ -72,16 +72,31 @@ body{
   margin: 20px;
 }
 /*.topnav a:hover {background-color: #ddd;color: black;}*/
-.active {background-color: transparent; color: white;}
-.topnav .icon {display: none;}
+.active {
+  background-color: transparent; 
+  color: white;
+}
+.topnav .icon {
+  display: none;
+}
 .topnav p{
   text-decoration: none;
 }
-.logo-wrap {  float: left; }
-.logo { object-fit: contain;padding-bottom: 10px;}
-.logo-wrap img{position: relative; margin-left: 10px;margin-right: 40px;padding-bottom: 10px;}
+.logo-wrap {  
+  float: left; 
+}
+.logo { 
+  object-fit: contain;
+  padding-bottom: 10px;
+}
+.logo-wrap img{
+  position: relative; 
+  margin-left: 10px;
+  margin-right: 40px;
+  padding-bottom: 10px;
+}
 .Phone {      
-    margin-right: 6px;
+    margin-right: 26px;
     left: 6px;  display: inline-block;
     max-width: 230px;
     max-height: 95px;
@@ -89,8 +104,8 @@ body{
     height: auto;
     position: relative;
     top: 3px;
-    object-fit: contain;}
-
+    object-fit: contain;
+  }
 
 /*End Nv Bar Section
 ===================================*/
@@ -98,7 +113,11 @@ body{
 
 /*Beginning In Pursuite Modal Section 
 ========================================*/
-.In-Pursuite-Wrap{width: 100%;height: 700px; position: relative;}
+.In-Pursuite-Wrap{
+  width: 100%;
+  height: 700px; 
+  position: relative;
+}
 .bck-image{
   background-image: url("../img/nick-karvounis-381270-unsplash.jpg");
   position: relative;
@@ -107,12 +126,45 @@ body{
 .Rectangle { width: 100%;position: absolute;right: 0;bottom: 0;top: 0;left: 0;object-fit: contain;}
 .hero-content { padding: 234px; position: absolute;}
 .hero-content:after{top: 4px; height: -webkit-calc(100% - 10px); height: calc(100% - 10px)}
-.In-pursuit-of-a-heal {width: 686px; font-size: 45px;font-weight: bold; line-height: 1.8;text-align: left;color: #0c225f;}
-.PharmaDynamics-is-a {width: 686px;/*height: 68px;*/font-size: 24px;font-weight: 10;line-height: 1.42;text-align: left;color: #0c225f; }
-.PharmaDynamics-is-a .text-style-1 {font-weight: 10;}
+.In-pursuit-of-a-heal {
+    max-width: 686px;
+    width: 100%;
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 1.8;
+    text-align: left;
+    color: #0c225f;
+}
+.PharmaDynamics-is-a {
+    width: 100%;
+    max-width: 696px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.42;
+    text-align: left;
+    color: #0c225f;
+    margin-top: 25px;
+    }
+
 .Rectangle-Copy { width:100%; position: absolute;right: 0;bottom: 0;object-fit: contain;}
-.Rectangle-Copy img{float: right; width: 600px;}
-.arrow-simple {  padding-top: 500px;padding-left: 240px;position: absolute;object-fit: contain;}
+.Rectangle-Copy img{
+  float: right; 
+  width: 300px;
+   
+}
+.arrow-simple {  
+  padding-top: 500px;
+  padding-left: 240px;
+  position: absolute;
+  object-fit: contain;
+  transition: 0.05s;
+
+}
+.arrow-simple a{ 
+  object-fit: contain;
+  transition: 0.05s;
+
+}
 {  width: 100%;display: block;position: relative;}
 .transparent-image::after {
   content: "";
@@ -131,24 +183,47 @@ body{
 =======================================*/
 
 .partners {width: 100%; vertical-align: middle;padding: 30px 80px;margin-left: auto;margin-right: auto;text-align: center; background-color: white;}
-.partnertext {color: #347bd9;font-size: 18px;display: inline-block;}
-.partners img {max-height: 95px;vertical-align: middle; padding: 0 30px;margin-left: 100px;}
+.partnertext {color: #347bd9;font-size: 22px;display: inline-block;}
+.partners img {max-height: 95px;vertical-align: middle; padding: 0 10px;margin-left: 100px; opacity: 0.64;}
 
 /*End Partners Modal Section 
 =======================================*/
 
 
-
 /*Beginning Rectangle-2 Modal Section 
 =======================================*/
 
-.Rectangle-2 {width: 100%;height: 550px;background-color: #f7f7f9;}
+.Rectangle-2 {
+    overflow: hidden;
+    width: 100%;
+    height: 550px;
+    background-color: #f7f7f9;
+}
+
 .pexels-photo-736716 {width: 826px;height: 550px;object-fit: contain;}
 .pexels-photo-736716 img {height: 550px; width: 826px; max-width: 300px; max-height: 300px;}
 .pexels-wrap{width: 100%;}
-.diabetes-section{ width: 100%; padding: 80px;}
-.Customer-story { width: 505px; height: 30px;  font-size: 22px; font-weight: 500; line-height: 1.36; text-align: left; color: #347bd9; }
-.Dealing-with-diabete { width: 505px; font-size: 50px;line-height: 1.3;text-align: left;color: #0c225f;padding-bottom: 20px; padding-top: 20px;}
+.diabetes-section{ width: 100%; padding: 80px; margin-left: 26px;}
+.Customer-story { 
+  width: 505px; 
+  height: 30px;  
+  font-size: 22px; 
+  font-weight: 500; 
+  line-height: 1.36; 
+  text-align: left; 
+  color: #347bd9; 
+  margin-bottom: 20px;
+}
+.Dealing-with-diabete { 
+  width: 505px; 
+  font-size: 50px;
+  line-height: 1.3;
+  text-align: left;
+  color: #0c225f;
+  padding-bottom: 20px; 
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
 .PharmaDynamics-helpe {width: 505px;height: 56px;font-size: 20px;font-weight: 300;line-height: 1.4;text-align: left;color: #0c225f;}
 .PharmaDynamics-helpe .text-style-1 {font-weight: 500;}
 
@@ -156,12 +231,168 @@ body{
 =======================================*/
 
 
-
 /*Rectangle copy 2 modal section
 ==================================*/
 
-.Rectangle-2-Copy {width: 100%;padding: 100px;height: 246px;background-color: #0c225f;}
-.layer {width: 146px;height: 90px;font-size: 75px;font-weight: 500;font-style: normal;font-stretch: normal;letter-spacing: normal;text-align: left;color: #9fb8ff;float: left;margin-left: 50px;}
+.col-2{
+  width: 50%;
+  float: left;
+}
+.wrapper1{
+  overflow: hidden;
+  margin: auto;
+  height: 246px;
+  background-color: #0c225f;
+  width: 100%;
+  max-width: 1600px;
+  text-align: center;
+}
+.second-wrap{
+  text-align: center;
+  padding: 75px;
+}
+.row:after {content: "";display: table;clear: both;}
+
+.layer1 {
+
+  width: 146px;
+  height: 90px;
+  font-family: HKGrotesk;
+  font-size: 75px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9fb8ff;
+  float: left;
+  margin-left: 100px;
+
+}
+
+.layer {
+  width: 146px;
+  height: 90px;
+  font-family: HKGrotesk;
+  font-size: 75px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9fb8ff;
+  float: left;
+  margin-left: 40px;
+}
+.layer h1{
+  font-family: HKGrotesk;
+  font-size: 75px;
+}
+.layer1 h1{
+  font-family: HKGrotesk;
+  font-size: 75px;
+}
+
+.PharmaDynamics-aver {
+  width: 100%;
+  max-width: 412px;
+  height: 58px;
+  font-family: HKGrotesk;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  float: left;
+  margin-left: 55px;
+  margin-top: 15px;
+}
+
+.PharmaDynamics-has-1 {
+  width: 100%;
+  max-width: 412px;
+  height: 58px;
+  font-family: HKGrotesk;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  float: left;
+  margin-left: 45px;
+  margin-top: 15px;
+}
+
+
+/*.Rectangle-2-Copy {
+      width: 100%;
+    max-width: 1600px;
+     padding: 100px; 
+    height: 246px;
+    background-color: #0c225f;
+}*/
+
+/*.layer {
+  width: 146px;
+  height: 90px;
+  font-family: HKGrotesk;
+  font-size: 75px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9fb8ff;
+}*/
+/*.layer-wrapper{
+  padding: 50px;
+  float: left;
+}
+.me{
+  padding: 10px;
+}*/
+
+
+/*.PharmaDynamics-aver {
+  width: 412px;
+  height: 58px;
+  font-family: HKGrotesk;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  
+}*/
+
+/*.PharmaDynamics-has-1 {
+  width: 412px;
+  height: 58px;
+  font-family: HKGrotesk;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+ 
+}*/
+
+
 .fill-271 {   
      width: 55px;
     height: 25px;
@@ -172,59 +403,69 @@ body{
     object-fit: contain;
     display: block;
 }
-
-.PharmaDynamics-aver {width: 412px;height: 58px;font-size: 20px;font-weight: 500;font-style: normal;font-stretch: normal;line-height: 1.45;letter-spacing: normal;text-align: left;color: #ffffff;}
-.PharmaDynamics-aver p{width: 412px;font-size: 20px;font-weight: 500;font-style: normal;font-stretch: normal;line-height: 1.45;letter-spacing: normal;text-align: left;color: #ffffff;float: left;margin-left: 100px;}
-
   /* // End Rectangle Copy 2 Modal Section 
  ========================================== */
-
 
 
 /*Beginning Rectangle-2-Copy-2 Modal Section 
 ============================================*/
 
-.Rectangle-2-Copy-2 {padding: 50px; width: 100%;height: 896px;background-color: #9fb8ff;border-bottom-right-radius: 90% 30%;}
+.Rectangle-2-Copy-2 {padding: 20px; width: 100%;height: 896px;background-color: #9fb8ff;border-bottom-right-radius: 90% 30%;}
 .Rectangle-2-Copy-2-wrap{width: 100%; padding: 80px;}
-.Our-products { margin-left: 230px; font-family: HKGrotesk;font-size: 22px;font-weight: 500;line-height: 1.36;text-align: left;color: #ffffff;}
-.We-have-10-market-le {margin-left: 230px; width: 1226px; font-family: HKGrotesk;font-size:50px;line-height: 1.3;text-align: left;color: #0c225f;padding-top: 20px;}
+.Our-products { margin-left: 100px; font-family: HKGrotesk;font-size: 22px;font-weight: 500;line-height: 1.36;text-align: left;color: #ffffff;}
+.We-have-10-market-le {margin-left: 100px; width: 1226px; font-family: HKGrotesk;font-size:50px;line-height: 1.3;text-align: left;color: #0c225f;padding-top: 20px;}
 .Heart-Health-Diabete {font-size: 15px;font-family: HKGrotesk; text-align: center; color: #4a4a4a;}
-.Health-Section-Wrap{width: 100%; padding: 100px;  margin-left: 100px;}
+.Health-Section-Wrap{   
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 40px;}
 .Heart-Health-Wrap{border-radius: 4px;padding: 15px; background-color: #ffffff; margin: 30px;}
 .Discover-Our-product .text-style-1 {letter-spacing: 1.3px;}
 .arrow-btn { /* Adjust these values accordingly */position: relative;   top: 2px;left: 10px;  object-fit: contain;}
-.Discover-Our-product {  margin-left: 320px;font-family: HKGrotesk;font-size: 18px;font-weight: 500;line-height: 8.67;letter-spacing: 1.6px;text-align: left; color: #ffffff;}
-.grp1{width: 24%;float: left;}
-.fill-271 {   
-    width: 55px;
-    height: 25px;
-    position: relative;
-    top: 15px;
-    margin-left: 20px;
+.Discover-Our-product {  margin-left: 180px;font-family: HKGrotesk;font-size: 18px;font-weight: 500;line-height: 8.67;letter-spacing: 1.6px;text-align: left; color: #ffffff;}
+.grp1{    
+    width: 24%;
+    float: left;
+    margin-left: 55px;
+  }
+  .Respiratory-Health-A {
+    width: 100%;
+    max-width: 325px;
+    height: 320px;
+    font-family: HKGrotesk;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: .55;
+    color: #4a4a4a;
+    margin-left: 80px;
+  }
+.fill-271 {  
+    width: 25px;
+    height: 24px;
     vertical-align: middle;
     object-fit: contain;
     display: block;
+
+}
+.button-wrap{
+  margin-left: 435px;
 }
 .button {
     box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
-    width: 322px;
+    width: 100%;
+    max-width: 322px;
     height: 55px;
-    background-color: #ffffff; /* Green */
-    border-radius: 5px; 
-    text-align: center;
+    background-color: #ffffff;
+    border-radius: 5px;
     text-decoration: none;
     display: block;
     font-family: HKGrotesk;
     font-size: 16px;
-    margin-bottom: 20px;
-    margin-left: 30px;
-    margin-right: 90px;
+    margin-bottom: 24px;
     cursor: pointer;
     color: #4a4a4a;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: normal;
 }
 
 /*End Rectangle-2-Copy-2 Modal Section 
@@ -245,19 +486,46 @@ input[type=text] {outline: none; width: 100%; padding: 15px;    border: none;   
 ::-moz-placeholder { /* Firefox 19+ */color: #7ec0ee;}
 :-ms-input-placeholder { /* IE 10+ */color: #7ec0ee;}
 :-moz-placeholder { /* Firefox 18- */color: #7ec0ee;}
-hr{ width: 408px;  border: solid 1px #979797; margin-bottom: 25px}
+hr{
+ width: 408px;  
+ border: 1px medium #979797;
+ margin-bottom: 25px; 
+}
 /*end newsletter input style*/
 .Newsletter {width: 408px;height: 53px;font-family: HKGrotesk;font-size: 22px;font-weight: bold;line-height: 1.73;text-align: left;color: #0c225f;}
 .btn{outline: none; border: none; background-color: inherit;padding: 14px 28px;font-size: 16px;cursor: pointer; display: inline-block;}
 .Submit {float: right; height: 24px;font-family: HKGrotesk;font-size: 20px;font-weight: 500;text-align: right;color: #0c225f;}
-.Home-Who-We-Are-Prod a{ font-family: HKGrotesk;font-size: 18px;text-align: center;float: left;color: #0c225f;padding:  6px; text-decoration: none; }
+.Home-Who-We-Are-Prod a{ 
+    font-family: HKGrotesk;
+    font-size: 18px;
+    text-align: center;
+    float: left;
+    color: #0c225f;
+    padding: 20px;
+    text-decoration: none;
+}
 .Home-We-Are-Prod-Wrap{margin-top: 90px; margin-left: 150px; width: 100%; height: 200px; }
-.Home-Who-We-Are-Prod { background: #ffffff;}
-.Home-Who-We-Are-Prod-Social{width: 100%; margin-right: 245px; height: 21px;font-family: HKGrotesk;font-size: 18px;text-align: right;color: #0c225f;float: right;}
+.Home-Who-We-Are-Prod {     background: #ffffff;
+    width: 100%;
+    max-width: 936px;}
+.Home-Who-We-Are-Prod-Social{
+    width: 100%;
+    margin-right: 115px;
+    height: 21px;
+    font-family: HKGrotesk;
+    font-size: 18px;
+    text-align: right;
+    color: #0c225f;
+    float: right;
+}
 .Home-Who-We-Are-Prod-Social a{margin: 10px;}
 .details-wrap{margin: 10px;}
-.logo-icon{float: left; margin-right: 10px;}
-.social-icons{width: 40px;height: 40px;object-fit: contain;}
+.logo-icon{float: left; }
+.social-icons{
+width: 30px;
+    height: 40px;
+    object-fit: contain;
+}
 .footer{width: 100%; height: 801px;}
 .news-wrap{margin-left: 395px;}
 .footer-nav {margin-left: 328px;font-family: HKGrotesk;font-size: 18px;font-weight: 500;line-height: 1.67;letter-spacing: 1.6px;text-align: left; color: #ffffff;}
@@ -287,8 +555,6 @@ hr{ width: 408px;  border: solid 1px #979797; margin-bottom: 25px}
 
 /*End Columns Section
 ===================================*/
-
-
 
 /*=======================================================================
 Media quries for responsive column display 
@@ -336,7 +602,6 @@ Media quries for responsive navigation menu between 900 and 600 display
     display: block;
     text-align: center;
   }
-
 
 }
 
@@ -389,71 +654,6 @@ display: none;
 
 
 
-/*@media only screen and (max-width: 500px) and (min-width: 100px){
-  .logo-wrap img {
-    width: 100%;
-    margin: 60px;
-    position: relative;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-bottom: 10px;
-}
-  .hide{
-    visibility: visible !important;
-    display: block  !important;
-  }
-  .sidenav {
-    width: 100%;
-    height: auto;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #ffffff;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.icon1{
-  visibility: visible;
-  display: block;
-  top: 45px;
-  right: 40px;
-}
-.closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-    display: block !important;
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #0c225f;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover {
-    color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-    
-}
-
-}*/
 
 /*============================================================
 end side nav
@@ -465,7 +665,7 @@ end side nav
 
 
 /* When the width is between 1400px and 900px OR above 900px - change the appearance of <who we are navigation> */
-@media screen and (max-width: 1400px) and (min-width: 900px){
+@media screen and (max-width: 1400px) and (min-width: 1000px){
 
   /*Beginning Partners Modal Section 
 =======================================*/
@@ -577,7 +777,13 @@ end side nav
 .PharmaDynamics-is-a .text-style-1 {font-weight: 10;}
 .Rectangle-Copy { width:100%; position: absolute;right: 0;bottom: 0;object-fit: contain;}
 .Rectangle-Copy img{float: right; width: 500px;}
-.arrow-simple {  padding-top: 500px;padding-left: 240px;position: absolute;object-fit: contain;}
+.arrow-simple {  
+  padding-top: 500px;
+  padding-left: 240px;
+  position: absolute;
+  object-fit: contain;
+  transition: 0.05s;
+}
 {  width: 100%;display: block;position: relative;}
 .transparent-image::after {
   content: "";
@@ -641,35 +847,73 @@ end side nav
 
 /*Rectangle copy 2 modal section
 ==================================*/
-.Rectangle-2-Copy {overflow: hidden; width: 100%;padding: 80px;height: auto;background-color: #0c225f;}
-.layer { 
-  margin:40px; 
+.wrapper1{
+  overflow: hidden;
+  margin: auto;
+  height: 246px;
+  background-color: #0c225f;
+  width: 100%;
+  max-width: 1600px;
+  text-align: center;
+}
+.second-wrap{
+text-align: center;
+    padding: 45px;
+}
+.row:after {content: "";display: table;clear: both;}
+
+.layer1 {
   width: 146px;
-  height: auto;
+  height: 90px;
+  font-family: HKGrotesk;
   font-size: 75px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
+  line-height: 1.2;
   letter-spacing: normal;
-  text-align: left;
+  text-align: center;
   color: #9fb8ff;
   float: left;
-  margin-left: 180px;
+  margin-left: 100px;
+
 }
-.PharmaDynamics-aver {
-  width: 412px;
-  height: auto;
-  font-size: 20px;
+
+.layer {
+  width: 146px;
+  height: 90px;
+  font-family: HKGrotesk;
+  font-size: 75px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.45;
+  line-height: 1.2;
   letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
+  text-align: center;
+  color: #9fb8ff;
+  float: left;
+  margin-left: 40px;
+
+
 }
-.PharmaDynamics-aver p{
-  width: 412px;
+.layer h1{
+
+  font-family: HKGrotesk;
+  font-size: 75px;
+ 
+}
+.layer1 h1{
+
+  font-family: HKGrotesk;
+  font-size: 75px;
+ 
+}
+
+.PharmaDynamics-aver {
+  width: 100%;
+  max-width: 412px;
+  height: 58px;
+  font-family: HKGrotesk;
   font-size: 20px;
   font-weight: 500;
   font-style: normal;
@@ -679,7 +923,27 @@ end side nav
   text-align: left;
   color: #ffffff;
   float: left;
-  margin-left: 60px;
+  margin-left: 55px;
+  margin-top: 15px;
+}
+
+.PharmaDynamics-has-1 {
+  width: 100%;
+  max-width: 412px;
+  height: 58px;
+  font-family: HKGrotesk;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  float: left;
+  margin-left: 45px;
+  margin-top: 15px;
+ 
 }
   /* // End Rectangle Copy 2 Modal Section 
  ===================================*/
@@ -732,41 +996,50 @@ end side nav
     text-align: left;
     color: #ffffff;
   }
-.grp1{
-      width: 22%;
-      margin: 20px;
+.grp1{    
+    width: 24%;
+    float: left;
+    margin-left: 55px;
   }
-.fill-271 {   
+  .Respiratory-Health-A {
+    width: 100%;
+    max-width: 325px;
+    height: 320px;
+    font-family: HKGrotesk;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: .55;
+    color: #4a4a4a;
+    margin-left: 80px;
+  
+  }
+    .Respiratory-Health-A p{
+    width: 100%;
+  }
+.fill-271 {  
     width: 25px;
-    height: 20px;
-    position: relative;
-    top: 15px;
-    margin-left: 20px;
+    height: 24px;
     vertical-align: middle;
     object-fit: contain;
     display: block;
+
 }
 .button {
     box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
     width: 100%;
-    height: auto;
-    background-color: #ffffff; /* Green */
-    border-radius: 5px; 
-    text-align: center;
+    max-width: 322px;
+    height: 55px;
+    background-color: #ffffff;
+    border-radius: 5px;
     text-decoration: none;
     display: block;
     font-family: HKGrotesk;
     font-size: 16px;
-    margin-bottom: 20px;
-    margin-left: 30px;
-    margin-right: 90px;
+    margin-bottom: 24px;
     cursor: pointer;
     color: #4a4a4a;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: normal;
-
 }
 
 /*End Rectangle-2-Copy-2 Modal Section 
@@ -818,7 +1091,7 @@ input[type=text] {outline: none; width: 100%; padding: 15px;    border: none;   
 ::-moz-placeholder { /* Firefox 19+ */color: #7ec0ee;}
 :-ms-input-placeholder { /* IE 10+ */color: #7ec0ee;}
 :-moz-placeholder { /* Firefox 18- */color: #7ec0ee;}
-hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
+hr{ width: 100%;   border: 1px medium #979797; margin-bottom: 25px}
 /*end newsletter input style*/
 
 .Newsletter {
@@ -840,6 +1113,9 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
   cursor: pointer; 
   display: inline-block;
 }
+.button-wrap{
+  margin-left: 0px;
+}
 .Submit {
   width: auto; 
   float: right; 
@@ -851,7 +1127,6 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
   color: #0c225f;
 }
 .Home-Who-We-Are-Prod a{
-    /*width: 100%;*/
     font-family: HKGrotesk;
     font-size: 17px;
     text-align: center;
@@ -875,7 +1150,7 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
 .Home-Who-We-Are-Prod-Social a{width: 100%; margin: 10px;}
 .details-wrap{margin: 10px;}
 .logo-icon{    margin-left: 40px;float: left; margin-right: 10px;}
-.social-icons{width: 35px;height: 35px;object-fit: contain;}
+.social-icons{width: 30px;height: 35px;object-fit: contain;}
 .footer{width: 100%; height: 801px;}
 .news-wrap{padding-top:1px;  width: 100%; margin-left: 0px;}
 .footer-nav {
@@ -893,13 +1168,19 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
 
 }
 
-
 /*larger devices layout*/
 /* When the width is between 600px and 900px OR above 1100px - change the appearance of <who we are navigation> */
-@media screen and (max-width: 900px) and (min-width: 600px){
+@media screen and (max-width: 1000px) and (min-width: 701px){
 
   /*Beginning Partners Modal Section 
 =======================================*/
+
+.call-nav {
+  display: none;
+}
+.nav a{
+  display: none;
+}
 .partners {
   height: auto; 
   width: 100%; 
@@ -930,23 +1211,14 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
   background-color: #ffffff;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-  padding: 20px 240px;  
+  padding: 0px 0px;  
   top: 0; 
   width: 100%;
   vertical-align: middle;
 }
 .topnav a {
   width: 100%; 
-  float: left;
-  color: #0c225f;
-  text-align: center;
-  padding: 1px;
-  text-decoration: none;
-  font-size: 17px;
-  font-size: 19px;
-  text-align: center; 
-  margin: 20px;
+  margin: 0px;
 }
 
 .active {background-color: transparent; color: white;}
@@ -977,7 +1249,10 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
 .In-pursuit-wrapper{padding: 0px;}
 .Rectangle { width: 100%;position: absolute;right: 0;bottom: 0;top: 0;left: 0;object-fit: contain;}
 .Rectangle img{width: 100%; display: none;}
-.hero-content { padding: 200px; position: absolute;}
+.hero-content {
+    padding: 100px;
+    position: absolute;
+}
 .hero-content:after{top: 4px; height: -webkit-calc(100% - 10px); height: calc(100% - 10px)}
 .In-pursuit-of-a-heal {
   width: 100%; 
@@ -1000,7 +1275,12 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
 .PharmaDynamics-is-a .text-style-1 {font-weight: 10;}
 .Rectangle-Copy { width:100%; position: absolute;right: 0;bottom: 0;object-fit: contain;}
 .Rectangle-Copy img{float: right; width: 600px; display: none;}
-.arrow-simple {  padding-top: 500px;padding-left: 240px;position: absolute;object-fit: contain;}
+.arrow-simple {
+    padding-top: 300px;
+    padding-left: 140px;
+    position: absolute;
+    object-fit: contain;
+}
 {  width: 100%;display: block;position: relative;}
 .transparent-image::after {
   content: "";
@@ -1015,6 +1295,7 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
 .bck-image{
     background-image: url("../img/nick-karvounis-381270-unsplash.jpg");
     width: 100%;
+    height: 400px;
     background-size: auto;
     background-repeat: no-repeat;
 }
@@ -1027,7 +1308,11 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
 .pexels-photo-736716 {width: 100%;height: auto;object-fit: contain;}
 .pexels-photo-736716 img {height: auto; width: 100%;}
 .pexels-wrap{width: 100%;}
-.diabetes-section{ width: 100%; padding: 80px;}
+.diabetes-section{ 
+    width: 100%;
+    padding: 50px;
+    margin-left: 0px;
+}
 .Customer-story { 
   width: 100%; 
   height: auto;  
@@ -1063,55 +1348,118 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
 
 /*Rectangle copy 2 modal section
 ==================================*/
-.Rectangle-2-Copy {
-  overflow: hidden; 
-  width: 100%;
-  padding: 80px;
+.wrapper1{
+  overflow: hidden;
+  margin: auto;
   height: auto;
   background-color: #0c225f;
+  width: 100%;
+  max-width: 1600px;
+  text-align: center;
 }
-.layer { 
-  margin:40px; 
-  max-width: 146px; 
-  width: 100%; 
-  height: auto;
+.second-wrap{
+    text-align: center;
+    padding: 60px;
+    width: 100%;
+}
+.row:after {content: "";display: table;clear: both;}
+
+.layer1 {
+    max-width: 146px;
+    width: 100%;
+    height: auto;
+    font-family: HKGrotesk;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #9fb8ff;
+    float: left;
+    margin-left: 200px;
+
+}
+
+.layer {
+    max-width: 146px;
+    width: 100%;
+    height: auto;
+    font-family: HKGrotesk;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #9fb8ff;
+    float: left;
+    margin-left: 200px;
+
+
+}
+.layer h1{
+
+  font-family: HKGrotesk;
   font-size: 75px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #9fb8ff;
-  float: left;
-  margin-left: 180px;
+ 
+}
+.layer1 h1{
+
+  font-family: HKGrotesk;
+  font-size: 75px;
+ 
 }
 
 .PharmaDynamics-aver {
-  width: 412px;
-  height: auto;
-  font-size: 20px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.45;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
+    width: 100%;
+    max-width: 412px;
+    height: auto;
+    font-family: HKGrotesk;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    color: #ffffff;
+    float: left;
+    margin-left: 75px;
+    margin-top: 15px;
 }
+
 .PharmaDynamics-aver p{
-  width: 100%; 
-  max-width: 412px; 
-  font-size: 20px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.45;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
-  float: left;
-  margin-left: 60px;
+    width: 100%;
+    max-width: 412px;
+    text-align: center;
 }
+
+.PharmaDynamics-has-1 {
+    width: 100%;
+    max-width: 412px;
+    height: auto;
+    font-family: HKGrotesk;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    color: #ffffff;
+    float: left;
+    margin-left: 75px;
+    margin-bottom: 75px;
+    margin-top: 15px;
+}
+
+.PharmaDynamics-has-1 p{
+    width: 100%;
+    max-width: 412px;
+    text-align: center;
+  
+}
+
+
 
   /* // End Rectangle Copy 2 Modal Section 
  ========================================== */
@@ -1126,7 +1474,7 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
   background-color: #9fb8ff;
   border-bottom-right-radius: 90% 30%;
 }
-.Rectangle-2-Copy-2-wrap{width: 100%; padding: 80px;}
+.Rectangle-2-Copy-2-wrap{width: 100%; padding: 0px;}
 .Our-products {
   width: 100%; 
   margin-left: 0px; 
@@ -1148,7 +1496,7 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
   padding-top: 20px;
 }
 .Heart-Health-Diabete {font-size: 15px;font-family: HKGrotesk; text-align: center; color: #4a4a4a;}
-.Health-Section-Wrap{width: 100%; padding: 10px;  margin-left: 0px;}
+.Health-Section-Wrap{width: 100%; padding: 10px;  margin-left: 90px;}
 .Heart-Health-Wrap{border-radius: 4px;padding: 15px; background-color: #ffffff; margin: 30px;}
 .Discover-Our-product .text-style-1 {letter-spacing: 1.3px;}
 .arrow-btn { /* Adjust these values accordingly */position: relative;   top: 2px;
@@ -1164,37 +1512,46 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
   text-align: left; 
   color: #ffffff;
 }
-.grp1{width: 100%;}
-.fill-271 {   
-    width: 55px;
-    height: 25px;
-    position: relative;
-    top: 15px;
-    margin-left: 20px;
+.grp1{
+    width: 100%;
+    margin-left: 0px;
+    float: none;
+}
+  .Respiratory-Health-A {
+    width: 100%;
+    max-width: 325px;
+    height: 320px;
+    font-family: HKGrotesk;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: .55;
+    color: #4a4a4a;
+    margin-left: 80px;
+  }
+.fill-271 {  
+    width: 25px;
+    height: 24px;
     vertical-align: middle;
     object-fit: contain;
     display: block;
+
 }
 .button {
     box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
     width: 100%;
-    height: auto;
-    background-color: #ffffff; 
-    border-radius: 5px; 
-    text-align: center;
+    max-width: 322px;
+    height: 55px;
+    background-color: #ffffff;
+    border-radius: 5px;
     text-decoration: none;
     display: block;
     font-family: HKGrotesk;
     font-size: 16px;
-    margin-bottom: 20px;
-    margin-left: 0px;
-    margin-right: 90px;
+    margin-bottom: 24px;
     cursor: pointer;
     color: #4a4a4a;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: normal;
 
 }
 
@@ -1205,7 +1562,7 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
 /*Beginning Rectangle-Copy-3 footer Section
 ============================================*/
 
-.contact-details-wrap{ padding: 160px; width: 100%;height: 81px;background-color: #ffffff; }
+.contact-details-wrap{ padding: 20px; width: 100%;height: 81px;background-color: #ffffff; }
 .Give-us-a-call-0860-1 {
   width: 100%; 
   font-family: HKGrotesk; 
@@ -1243,7 +1600,7 @@ input[type=text] {outline: none; width: 100%; padding: 15px;    border: none;   
 ::-moz-placeholder { /* Firefox 19+ */color: #7ec0ee;}
 :-ms-input-placeholder { /* IE 10+ */color: #7ec0ee;}
 :-moz-placeholder { /* Firefox 18- */color: #7ec0ee;}
-hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
+hr{ width: 100%;   border: 1px medium #979797; margin-bottom: 25px}
 /*end newsletter input style*/
 
 .Newsletter {
@@ -1265,6 +1622,9 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
   cursor: pointer; 
   display: inline-block;
 }
+.button-wrap{
+  margin-left: 0px;
+}
 .Submit {
   width: auto; 
   float: right; 
@@ -1281,7 +1641,7 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
     text-align: center;
     float: left;
     color: #0c225f;
-    padding: 4px;
+    padding: 9px;
     text-decoration: none;
   }
 .Home-We-Are-Prod-Wrap{margin-top: 90px; margin-left: 0px; width: 100%; height: 200px; }
@@ -1318,6 +1678,97 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
 .call-nav p{
    float: none !important;
   }
+
+
+  /*================================================================
+                                   side nav
+  =================================================================*/
+  @media only screen and (max-width: 1000px) and (min-width: 710px){
+  .sidenav .call-nav{
+    display:block;
+  }
+}
+  .sidenav .call-nav|{
+  display: block !important;
+}
+  .fa {
+  display: none !important;
+    position: absolute;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    top: 45px;
+    right: 40px;
+}
+    .logo-wrap img {
+    width: 100%;
+    margin: 60px;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 10px;
+
+}
+  .hide{
+    visibility: visible !important;
+    display: block  !important;
+  }
+  .sidenav {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    width: 0;
+   /* position: fixed;*/
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.icon1{
+  
+    visibility: visible;
+    display: block;
+    top: 45px;
+    right: 40px;
+    position: absolute;
+}
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    display: block !important;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #0c225f;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    
+}
+/*end side*/
 }
 
 
@@ -1327,7 +1778,7 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
  /*=============================================
  ===============================================*/
 
-@media only screen and (max-width: 762px) and (min-width: 362px) {
+@media only screen and (max-width: 700px) and (min-width: 500px) {
 
   /*Beginning Partners Modal Section 
 =======================================*/
@@ -1378,7 +1829,9 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
   font-size: 17px;
   font-size: 19px;
   text-align: center; 
-  margin: 20px;}
+  margin: 20px;
+  transition: 0.3s;
+}
 .active {background-color: transparent; color: white;}
 .topnav .icon {display: none;}
 
@@ -1498,36 +1951,74 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
 /*Rectangle copy 2 modal section
 ==================================*/
 
-.Rectangle-2-Copy {overflow: hidden; width: 100%;padding: 90px;height: auto;background-color: #0c225f;}
-.layer {
-  margin:40px; 
-  width: 146px;
+.wrapper1{
+  overflow: hidden;
+  margin: auto;
   height: auto;
+  background-color: #0c225f;
+  width: 100%;
+  max-width: 1600px;
+  text-align: center;
+}
+.second-wrap{
+    text-align: center;
+    padding: 75px;
+    width: 100%;
+}
+.row:after {content: "";display: table;clear: both;}
+
+.layer1 {
+    max-width: 146px;
+    width: 100%;
+    height: auto;
+    font-family: HKGrotesk;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #9fb8ff;
+    float: left;
+    margin-left: 150px;
+
+}
+
+.layer {
+    max-width: 146px;
+    width: 100%;
+    height: auto;
+    font-family: HKGrotesk;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #9fb8ff;
+    float: left;
+    margin-left: 150px;
+
+}
+.layer h1{
+
+  font-family: HKGrotesk;
   font-size: 75px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #9fb8ff;
-  float: left;
-  margin-left: 100px;
+  width: 100%;
+ 
+}
+.layer1 h1{
+
+  font-family: HKGrotesk;
+  font-size: 75px;
+  width: 100%; 
 }
 
 .PharmaDynamics-aver {
-  width: 412px;
-  height: auto;
-  font-size: 20px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.45;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ffffff;
-}
-.PharmaDynamics-aver p{
   width: 100%;
+  max-width: 412px;
+  height: 58px;
+  font-family: HKGrotesk;
   font-size: 20px;
   font-weight: 500;
   font-style: normal;
@@ -1537,7 +2028,40 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
   text-align: left;
   color: #ffffff;
   float: left;
-  margin-left: 5px;
+  margin-left: 55px;
+  margin-top: 15px;
+}
+
+.PharmaDynamics-aver p{
+  width: 100%;
+  max-width: 412px;
+
+}
+
+
+.PharmaDynamics-has-1 {
+  width: 100%;
+  max-width: 412px;
+  height: 58px;
+  font-family: HKGrotesk;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  float: left;
+  margin-left: 45px;
+  margin-top: 15px;
+ 
+}
+
+.PharmaDynamics-has-1 p{
+  width: 100%;
+  max-width: 412px;
+
 }
 
   /* // End Rectangle Copy 2 Modal Section 
@@ -1566,14 +2090,14 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
 }
 .We-have-10-market-le {    
     width: 100%;
-    margin-left: 20px;
+    max-width: 1226px;
+    margin-left: 0px;
     font-family: HKGrotesk;
-    font-size: 45px;
+    font-size: 50px;
     line-height: 1.3;
     text-align: left;
     color: #0c225f;
     padding-top: 20px;
-    padding-bottom: 20px;
   }
 .Heart-Health-Diabete {font-size: 15px;font-family: HKGrotesk; text-align: center; color: #4a4a4a;}
 .Health-Section-Wrap{width: 100%; padding: 4px;  margin-left: 0px;}
@@ -1594,36 +2118,41 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
   }
 
 .grp1{width: 100%;}
-.fill-271 {   
-    width: 55px;
-    height: 25px;
-    position: relative;
-    top: 15px;
-    margin-left: 20px;
+  .Respiratory-Health-A {
+    width: 100%;
+    max-width: 325px;
+    height: 32px;
+    font-family: HKGrotesk;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: .55;
+    color: #4a4a4a;
+    margin-left: 80px;
+  }
+.fill-271 {  
+    width: 25px;
+    height: 24px;
     vertical-align: middle;
     object-fit: contain;
     display: block;
+
 }
 .button {
     box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
     width: 100%;
-    height: auto;
+    max-width: 322px;
+    height: 55px;
     background-color: #ffffff;
     border-radius: 5px;
-    text-align: center;
     text-decoration: none;
     display: block;
     font-family: HKGrotesk;
     font-size: 16px;
-    margin-bottom: 20px;
-    margin-left: 0px;
-    margin-right: 90px;
+    margin-bottom: 24px;
     cursor: pointer;
     color: #4a4a4a;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: normal;
 
 }
 
@@ -1677,7 +2206,7 @@ input[type=text] {outline: none; width: 100%; padding: 15px;    border: none;   
 ::-moz-placeholder { /* Firefox 19+ */color: #7ec0ee;}
 :-ms-input-placeholder { /* IE 10+ */color: #7ec0ee;}
 :-moz-placeholder { /* Firefox 18- */color: #7ec0ee;}
-hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
+hr{ width: 100%;   border: 1px medium #979797; margin-bottom: 25px}
 /*end newsletter input style*/
 
 .Newsletter {   
@@ -1698,6 +2227,9 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
   font-size: 16px;
   cursor: pointer; 
   display: inline-block;
+}
+.button-wrap{
+  margin-left: 0px;
 }
 .Submit {
   width: auto; 
@@ -1748,6 +2280,92 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
 /*End Rectangle-Copy-3 footer Section
 ==============================================*/
 
+
+  /*================================================================
+                                   side nav
+  =================================================================*/
+  .fa {
+  display: none !important;
+    position: absolute;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    top: 45px;
+    right: 40px;
+}
+    .logo-wrap img {
+    width: 100%;
+    margin: 60px;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 10px;
+
+}
+  .hide{
+    visibility: visible !important;
+    display: block  !important;
+  }
+  .sidenav {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    width: 0;
+   /* position: fixed;*/
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.icon1{
+  
+    visibility: visible;
+    display: block;
+    top: 45px;
+    right: 40px;
+    position: absolute;
+}
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    display: block !important;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #0c225f;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    
+}
+/*end side*/
+/*=======================================================
+                    end side nav
+=========================================================*/
+
 }
 
 /*==============================================
@@ -1760,6 +2378,18 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
 
   /*Beginning Partners Modal Section 
 =======================================*/
+.fa {
+  display: none !important;
+    position: absolute;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    top: 45px;
+    right: 40px;
+}
+
 
 .partners {
   height: auto; 
@@ -1786,7 +2416,7 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
 /* Beginning nav Bar Section
 ===================================*/
 
-.topnav {
+/*.topnav {
   overflow: hidden;
   background-color: #ffffff;
   margin-left: auto;
@@ -1796,8 +2426,8 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
   top: 0; 
   width: 100%;
   vertical-align: middle;
-}
-.topnav a {
+}*/
+/*.topnav a {
   float: left;
   color: #0c225f;
   text-align: center;
@@ -1808,10 +2438,10 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
   font-weight: bold;
   text-align: center;
   margin: 20px;
- }
+ }*/
 /*.topnav a:hover {background-color: #ddd;color: black;}*/
-.active {background-color: transparent; color: white;}
-.topnav .icon {display: none;}
+/*.active {background-color: transparent; color: white;}
+.topnav .icon {display: none;}*/
 
 .logo-wrap {  float: left; }
 .logo { object-fit: contain;padding-bottom: 10px;}
@@ -1843,7 +2473,11 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
 .In-Pursuite-Wrap{width: 100%;height: 700px; position: relative;}
 .Rectangle { width: 100%;position: absolute;right: 0;bottom: 0;top: 0;left: 0;object-fit: contain;}
 .Rectangle img{width: 100%; display: none;}
-.hero-content {width: 100%; padding: 90px; position: absolute;}
+.hero-content {
+    width: 100%;
+    padding: 7.5px;
+    position: absolute;
+}
 .hero-content:after{top: 4px; height: -webkit-calc(100% - 10px); height: calc(100% - 10px)}
 .In-pursuit-of-a-heal {
   width: 100%;  
@@ -1880,13 +2514,11 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
 .bck-image{
     background-image: url("../img/nick-karvounis-381270-unsplash.jpg");
     width: 100%;
-    height: 599px;
-    /* max-width: 800px; */
-    /* display: contents; */
-    position: a;
+    height: 300px;
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
+
 }
 /*End In Pursuite Modal Section */
 
@@ -1897,7 +2529,12 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
 .pexels-photo-736716 {width: 100%;height: auto;object-fit: contain;}
 .pexels-photo-736716 img {height: auto; width: 100%; }
 .pexels-wrap{width: 100%;}
-.diabetes-section{ width: 100%; padding: 80px;}
+.diabetes-section{ 
+    width: 100%;
+    padding: 30px;
+    margin-left: 0px;
+
+}
 .Customer-story {
     width: 100%;
     height: auto;
@@ -1906,6 +2543,7 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
     line-height: 1.36;
     text-align: left;
     color: #347bd9;
+    margin-bottom: 10px;
   }
 .Dealing-with-diabete {   
     width: 100%;
@@ -1913,8 +2551,8 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
     line-height: 1.3;
     text-align: left;
     color: #0c225f;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
   }
 .PharmaDynamics-helpe {    
     width: 100%;
@@ -1930,48 +2568,123 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
 /*End Rectangle-2 Modal Section
 =======================================*/
 
+
 /*Rectangle copy 2 modal section
 ==================================*/
 
-.Rectangle-2-Copy {overflow: hidden; width: 100%;padding: 68px;height: auto;background-color: #0c225f;}
-.layer { 
-    width: 100%;
-    height: auto;
-    font-size: 55px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: normal;
-    color: #9fb8ff;
-    margin: 10px;
+.wrapper1{
+  overflow: hidden;
+  margin: auto;
+  height: auto;
+  background-color: #0c225f;
+  width: 100%;
+  max-width: 1600px;
+  text-align: center;
+}
+.second-wrap{
     text-align: center;
-  }
-
-.PharmaDynamics-aver {    
-    width: 100%;
+    padding: 35px;
     height: auto;
-    font-size: 15px;
-    font-weight: 300;
+}
+.row:after {content: "";display: table;clear: both;}
+
+.layer1 {
+    width: 100%;
+    max-width: 566px;
+    height: auto;
+    font-family: HKGrotesk;
+    font-size: 45px;
+    font-weight: 500;
     font-style: normal;
     font-stretch: normal;
     line-height: 1;
     letter-spacing: normal;
-    color: #ffffff;
-  }
-.PharmaDynamics-aver p{ 
-    text-align: center; 
+    text-align: center;
+    color: #9fb8ff;
+    margin-left: 0px;
+    float: none;
+
+}
+
+.layer {
     width: 100%;
-    font-size: 20px;
+    max-width: 566px;
+    height: auto;
+    font-family: HKGrotesk;
+    font-size: 45px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #9fb8ff;
+    margin-left: 0px;
+    float: none;
+
+}
+.layer h1{
+
+  font-family: HKGrotesk;
+  font-size: 65px;
+  width: 100%;
+ 
+}
+.layer1 h1{
+
+  font-family: HKGrotesk;
+  font-size: 65px;
+  width: 100%;
+ 
+}
+
+.PharmaDynamics-aver {
+    width: 100%;
+    max-width: 412px;
+    height: auto;
+    font-family: HKGrotesk;
+    font-size: 18px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.45;
     letter-spacing: normal;
+    text-align: center;
     color: #ffffff;
     float: left;
-    margin-left: 5px;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+.PharmaDynamics-aver p{
+    width: 100%;
+    max-width: 412px;
+
 }
 
+.PharmaDynamics-has-1 {
+    width: 100%;
+    max-width: 412px;
+    height: auto;
+    font-family: HKGrotesk;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    float: left;
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.PharmaDynamics-has-1 p{
+    width: 100%;
+    max-width: 412px;
+
+}
   /* // End Rectangle Copy 2 Modal Section 
  ========================================== */
 
@@ -1979,11 +2692,11 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
 ============================================*/
 
 .Rectangle-2-Copy-2 {
-  padding: 50px; 
+  padding: 40px; 
   width: 100%;
   height: auto;
   background-color: #9fb8ff;
-  border-bottom-right-radius: 90% 30%;
+  border-bottom-right-radius: 90% 0%;
 }
 .Rectangle-2-Copy-2-wrap{
   width: 100%; 
@@ -2008,10 +2721,10 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
     text-align: left;
     color: #0c225f;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
   }
 .Heart-Health-Diabete {font-size: 15px;font-family: HKGrotesk; text-align: center; color: #4a4a4a;}
-.Health-Section-Wrap{width: 100%; padding: 5px;  margin-left: 0px;}
+.Health-Section-Wrap{width: 100%; padding: 0px;  margin-left: 0px;}
 .Heart-Health-Wrap{border-radius: 4px;padding: 15px; background-color: #ffffff; margin: 30px;}
 .Discover-Our-product .text-style-1 {letter-spacing: 1.3px;}
 .arrow-btn {position: relative;   top: 2px;left: 6px;  object-fit: contain;}
@@ -2026,8 +2739,50 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
     text-align: left;
     color: #ffffff;
   }
-.grp1{width: 100%;}
-.fill-271 {   
+.grp1{
+  width: 100%;
+  float: none;
+  margin-left: 0px;
+
+}
+  .Respiratory-Health-A {
+    width: 100%;
+    max-width: 325px;
+    height: 32px;
+    font-family: HKGrotesk;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: .55;
+    color: #4a4a4a;
+    margin-left: 80px;
+  }
+.fill-271 {  
+    width: 25px;
+    height: 24px;
+    vertical-align: middle;
+    object-fit: contain;
+    display: block;
+
+}
+.button {
+    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 322px;
+    height: 55px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    font-family: HKGrotesk;
+    font-size: 16px;
+    margin-bottom: 24px;
+    cursor: pointer;
+    color: #4a4a4a;
+
+}
+/*.fill-271 {   
      width: 55px;
     height: 25px;
     position: relative;
@@ -2036,30 +2791,7 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
     vertical-align: middle;
     object-fit: contain;
     display: block;
-}
-
-.button {
-    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    height: auto;
-    background-color: #ffffff;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-family: HKGrotesk;
-    font-size: 16px;
-    margin-bottom: 20px;
-    margin-left: 0px;
-    margin-right: 90px;
-    cursor: pointer;
-    color: #4a4a4a;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: normal;
-
-}
+}*/
 
 
 /*End Rectangle-2-Copy-2 Modal Section 
@@ -2106,7 +2838,7 @@ input[type=text] {outline: none; width: 100%; padding: 15px;    border: none;   
 ::-moz-placeholder { /* Firefox 19+ */color: #7ec0ee;}
 :-ms-input-placeholder { /* IE 10+ */color: #7ec0ee;}
 :-moz-placeholder { /* Firefox 18- */color: #7ec0ee;}
-hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
+hr{ width: 100%;   border: 1px medium #979797; margin-bottom: 25px}
 
 /*end newsletter input style*/
 .Newsletter {    
@@ -2127,6 +2859,9 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
   font-size: 16px;
   cursor: pointer; 
   display: inline-block;
+}
+.button-wrap{
+  margin-left: 0px;
 }
 .Submit {
   width: auto; 
@@ -2189,15 +2924,101 @@ hr{ width: 100%;  border: solid 1px #979797; margin-bottom: 25px}
 }
 /*End Rectangle-Copy-3 footer Section
 ==============================================*/
+/*top nav*/
+.topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0px 0px;
+    top: 0;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.topnav a {
+    margin: 0px;
+}
+/*end top nav*/
 
 
 }
+/*sidenav*/
+@media only screen and (max-width: 500px) and (min-width: 100px){
+  .logo-wrap img {
+    width: 100%;
+    margin: 60px;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 10px;
 
+}
+  .hide{
+    visibility: visible !important;
+    display: block  !important;
+  }
+  .sidenav {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    width: 0;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0px;
+}
 
+.icon1{
+  
+    visibility: visible;
+    display: block;
+    top: 45px;
+    right: 40px;
+    position: absolute;
+}
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    display: block !important;
+}
 
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #0c225f;
+    display: block;
+    transition: 0.3s;
+}
 
+.sidenav a:hover {
+    color: #f1f1f1;
+}
 
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    
+}
 
+}
+
+/*end side nav*/
+.container{
+  width: 100%;
+  max-width: 1600px;
+}
 
 @media (min-width: 768px) {
   .container{
