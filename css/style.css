@@ -2880,8 +2880,9 @@ hr{ width: 100%;   border: 1px medium #979797; margin-bottom: 25px}
     float: left;
     color: #0c225f;
     padding: 2px;
-    text-decoration: none; 
+    text-decoration: none;
     padding-bottom: 20px;
+    display: none;
   }
 .Home-We-Are-Prod-Wrap{
   margin-top: 90px; 
