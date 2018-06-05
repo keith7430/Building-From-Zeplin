@@ -4,35 +4,59 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
+    <meta name="Pharmadynamics" description="PharmaDynamics is a producer of effective, affordable healthcare products that outperform 90% of other products on the market">
     <title>Pharma| Dynamics</title>
+    <link rel="shortcut icon" href="img/logo-icon.png" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="all" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
   </head>
-    <body>
+    <body >
+      <div class="container">
 <!-- Beginning Header Section 
 =========================-->
-<div class="Stickybar">
-    <div class="row">
- 
-    <div class="Who-We-Are-Products">
-         <div class="logo-wrap">
-    <a href="index.html" style="float:left"><img src="img/logo.png" srcset="img/logo@2x.png 2x, img/logo@3x.png 3x" class="logo"></a>
-    </div>
-         <div class="nav">
-    <a href="index.html">Who We Are<a/>
-    <a href="products.html">Products<a/>
-    <a href="stories.html">Stories<a/>
-    <a href="careers.html">Careers<a/>
-    <a href="contact.html">Contact<a/>
-    <a style="float:right; "><p>Give us a call<img class="Phone" src="svg/phone.svg"> 0860 742 746</p></a>
-          </div>
-      </div>
-    </div>
- </div>
+
+<div class="topnav" id="myTopnav">
+            <div class="logo-wrap active">
+             <a href="index.html" style="float:left"><img src="img/logo.png" class="logo"></a>
+            </div>
+        <div class="nav">
+         <strong>
+            <a href="index.html">Who We Are</a>
+            <a href="products.html">Products</a>
+            <a href="stories.html">Stories</a>
+            <a href="careers.html">Careers</a>
+            <a href="contact.html">Contact</a>
+         </strong>
+        </div>
+            <a style="float:right; "  ><p class="call-nav"><strong>Give us a call</strong><img class="Phone" src="svg/phone.svg"> 0860 742 746</p></a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i></a>
+</div>
+
+<!-- side nav -->
+<div id="mySidenav" class="sidenav hide">
+  <span href="javascript:void(0)" class="closebtn"  onclick="closeNav()">&times;</span>
+              <div class="logo-wrap active">
+             <a href="index.html" style="float:left"><img src="img/logo.png" class="logo"></a>
+            </div>
+         <strong>
+            <a href="index.html">Who We Are</a>
+            <a href="products.html">Products</a>
+            <a href="stories.html">Stories</a>
+            <a href="careers.html">Careers</a>
+            <a href="contact.html">Contact</a>
+         </strong>
+          <a style="float:right; "  ><p class="call-nav"><strong>Give us a call</strong><img class="Phone" src="svg/phone.svg"> 0860 742 746</p></a>
+</div>
+<span style="font-size:30px;cursor:pointer" class="icon1" onclick="openNav()">&#9776; </span> 
+
+<!-- end side nav -->
 <!-- // End Header Section 
  =========================-->
-
 
  <!-- Beginning Main Content Section 
  =========================-->
@@ -40,70 +64,198 @@
  <!-- Beginning In Pursuite Modal Section 
 =========================--> 
 <section class="row">
-  <div class"transparent">
-  <div class="In-Pursuite-Wrap" style="background-image: url(img/nick-karvounis-381270-unsplash@2x.jpg); width:100%; background-size: cover;">
-      <div class="Rectangle"><img src="svg/rectangle.svg"></div>
-      <div class="hero-content"><h1 class="In-pursuit-of-a-heal">In pursuite of a healthier world</h1> <p class="PharmaDynamics-is-a"><strong>PharmaDynamics</strong> is a producer of effective, affordable healthcare products that outperform 90% of other products on the market</p> </div>
-      <div class="Rectangle-Copy"><img src="img/rectangle-copy.png" > </div>
-      <div class="arrow-simple"><a  href="#Our-products"><img src="svg/arrow-simple.svg"></a></div> 
-  </div>
-  </div>
+   <div class="bck-image">
+      <div class="In-Pursuite-Wrap" >
+            <div class="Rectangle"><img src="svg/rectangle.svg"></div>
+          <div class="In-pursuit-wrapper">
+              <div class="hero-content"><h1 class="In-pursuit-of-a-heal">In pursuit of a healthier world</h1> <p class="PharmaDynamics-is-a"><strong>PharmaDynamics</strong> is a producer of effective, affordable healthcare products that outperform 90% of other products on the market</p> 
+              </div>
+              <div class="Rectangle-Copy"><img src="img/rectangle-copy.png" > </div>
+            <div class="arrow-simple"><a  href="#Our-products"><img src="svg/arrow-simple.svg"></a></div> 
+         </div>   
+      </div>
+   </div> 
 </section>
  <!-- End In Pursuite Modal Section 
 =========================-->
 
 
+ <!-- Beginning Partners Modal Section 
+=========================-->
+<section class="row">
+  <div class="col-12">
+      <div class="partners">
+          <a href="#"><h3 class="partnertext">Your Health Matters</h3></a>
+          <a href="#"><img src="img/cooking-logo2-150x160.jpg" srcset="img/cooking-logo2-150x160@2x.jpg 2x"></a>
+          <a href="#"><img src="img/ichange-logo.jpg" srcset="img/ichange-logo@2x.jpg 2x"></a>
+          <a href="#"><img src="img/lets-talk-logo.jpg" srcset="img/lets-talk-logo@2x.jpg 2x"></a>
+          <a href="#"><img src="img/Bugwise-Icon-150x154.jpg" srcset="img/Bugwise-Icon-150x154@2x.jpg 2x"></a>
+         <a href="#"><img src="img/Allergy-expert-logo-150x115.jpg" srcset="img/Allergy-expert-logo-150x115@2x.jpg 2x"></a>
+      </div>
+   </div>   
+</section>
+ <!-- End Partners Modal Section 
+=========================-->
+
+ <!-- Beginning Rectangle-2 Modal Section 
+=========================-->
+<section class="Rectangle-2">
+  <div class="row">
+      <div class="col-2">
+          <div class="pexels-wrap">
+            <img  class="pexels-photo-736716" src="img/pexels-photo-736716@2x.png">
+          </div> 
+      </div>
+      <div class="col-2">
+            <div class="diabetes-section">
+               <p class="Customer-story">Customer Story</p>
+               <h1 class="Dealing-with-diabete">Dealing with diabetes is more than just dealing with diabetes.</h1>
+               <p class="PharmaDynamics-helpe"><b>PharmaDynamics</b> helped me overcome my is simply dummy text of the printing and typesetting industry.</p>
+           </div>
+       </div>
+  </div>
+</section><!-- End Rectangle-2 Modal Section-->
+ <!-- // End Main Content Section 
+ =========================--> 
+
+ <!-- Beginning Rectangle-2-Copy Modal Section 
+=========================-->
+<section class="wrapper1">
+<div class="row">
+    <div class="second-wrap">
+      <div class="col-2">
+         <div class="layer1">
+            <h1>40%</h1> 
+        </div>
+        <div class="PharmaDynamics-aver">
+           <p>PharmaDynamics’ average cost saving  versus originator brands on the South African market</p>
+       </div>
+      </div>
+
+      <div class="col-2">
+        <div class="layer">
+            <h1>10+</h1> 
+        </div>
+        <div class="PharmaDynamics-has-1">
+          <p>PharmaDynamics has 10 market leading brands within the family of products</p>
+       </div>
+      </div>
+    </div>
+</div>
+</section>
+<!-- // End Rectangle-2-Copy Modal Section 
+ =========================-->
+
+ <!-- Beginning Rectangle-2-Copy-2 Modal Section 
+=========================-->
+<section class="Rectangle-2-Copy-2" id="Our-products">
+   <div class="row">
+      <div class="col-12">
+            <div class="Rectangle-2-Copy-2-wrap">
+                <h2 class="Our-products">Our Products</h2>
+                <p class="We-have-10-market-le">We have 10 market leading brands accross a broard<br> spectrum of treatment categories</p>
+                    <div class="Health-Section-Wrap">
+                          <div class="grp1">
+                              <div class="button"><img src="img/fill-271.png" class="fill-271"><p class="Respiratory-Health-A">Heart Health</p></div>
+                              <div class="button"><img src="img/fill-183.png" class="fill-271"><p class="Respiratory-Health-A">Diabetes Health</p></div>
+                              <div class="button"><img src="img/fill-106.png" class="fill-271"><p class="Respiratory-Health-A">Men’s Health</p></div>
+                              <div class="button"><img src="img/fill-106.png" class="fill-271"><p class="Respiratory-Health-A">Hospital</p></div>
+                          </div>
+
+                          <div class="grp1">
+                              <div class="button"><img src="img/fill-95.png" class="fill-271"><p class="Respiratory-Health-A">Mental Health</p></div>
+                              <div class="button"><img src="img/fill-98.png" class="fill-271"><p class="Respiratory-Health-A">Digestive Health</p></div>
+                              <div class="button"><img src="img/fill-198.png"class="fill-271"><p class="Respiratory-Health-A">Bone Health</p></div>
+                              <div class="button"><img src="img/fill-198.png"class="fill-271"><p class="Respiratory-Health-A">Anti-infectives</p></div>
+                          </div>
+
+                          <div class="grp1">
+                              <div class="button"><img src="img/fill-286.png"class="fill-271"><p class="Respiratory-Health-A">Respiratory Health</p></div>
+                              <div class="button"><img src="img/fill-311.png"class="fill-271"><p class="Respiratory-Health-A">Allergies</p></div>
+                              <div class="button"><img src="img/fill-330.png"class="fill-271"><p class="Respiratory-Health-A">Cold & Flu</p></div>
+                              <div class="button"><img src="img/fill-330.png"class="fill-271"><p class="Respiratory-Health-A">Pain Management</p></div>
+                          </div>
+                    </div>
+            </div>
+      </div>
+    </div>
+          <div>
+               <a href="" class="Discover-Our-product" style="text-decoration:none;">DISCOVER OUR PRODUCTS<img class="arrow-btn" src="svg/arrow-btn.svg"></a>
+          </div>
+</section>
+<!-- // End Rectangle-2-Copy-2 Modal Section 
+ =========================-->
+
  <!-- Beginning Rectangle-Copy-3 footer Section 
 =========================-->
-  <section class="row">
 <footer class"footer">
+  <section class="row">
      <div class="contact-details-wrap">
-              <div class="col-2">
-                
-                    <a class="Give-us-a-call-0860-1" ><p>Give us a call<img class="Phone" src="svg/phone.svg"> 0860 742 746</p></a>
-                <!-- <p class="Give-us-a-call-0860-1" >Give us a call<img class="Phone" src="svg/phone.svg">0860 742 762</p> -->
-                <p class="Effective-affordabl">Effective, affordable healthcare products that outperform 90% of other products on the market</p>
-              </div>
-              <div class="col-2">
-                <div class="news-wrap">
-                  <h3 class="Newsletter" >Newsletter</h3>
-                  <input class="email-address" type="text" placeholder="email address" name="Newsletter" required>
-                  <hr>
-                <a href="#"><button class="btn Submit">Submit</button></a>
+            <div class="col-2">
+              <a class="Give-us-a-call-0860-1" ><p><strong>Give us a call</strong><img class="Phone" src="svg/phone.svg"> 0860 742 746</p></a>
+              <p class="Effective-affordabl">Effective, affordable healthcare products that outperform 90% of other products on the market</p>
+            </div>
+            <div class="col-2">
+              <div class="news-wrap">
+                <h3 class="Newsletter" >Newsletter</h3>
+                <input class="email-address" type="text" placeholder="email address" name="Newsletter" required>
+                <hr><div class="button-wrap">
+                <a href=""><button class="btn Submit">Submit</button></a>
                 </div>
               </div>
+            </div>
       </div>
+  </section>
   <section class="row">
     <div class="details-wrap">
-         
-                <div class="Home-We-Are-Prod-Wrap">
-                  <div class="col-2">          
-                      <div class="Home-Who-We-Are-Prod">
-                        <a><img src="img/logo-icon.png"srcset="img/logo-icon@2x.png 2x, img/logo-icon@3x.png 3x"class="logo-icon"></a>
-                             <a href="index.html">Who We Are<a/>
-                              <a href="products.html">Products<a/>
-                              <a href="stories.html">Stories<a/>
-                              <a href="careers.html">Careers<a/>
-                              <a href="contact.html">Contact<a/>
-                      </div>
-                  </div>
-
-                  <div class="col-2">          
-                      <div class="Home-Who-We-Are-Prod-Social"><b>
-                        <a href="#"><img src="svg/instagram.svg"class="social-icons"><a/>
-                        <a href="#"><img src="svg/facebook.svg"class="social-icons"><a/>
-                        <a href="#"><img src="svg/twitter.svg"class="social-icons"><a/>
-                        <a href="#"><img src="svg/youtube.svg"class="social-icons"><a/>
-                      </div>
+        <div class="Home-We-Are-Prod-Wrap">
+              <div class="col-2">          
+                  <div class="Home-Who-We-Are-Prod">
+                    <a><img src="img/logo-icon.png"srcset="img/logo-icon@2x.png 2x, img/logo-icon@3x.png 3x"class="logo-icon"></a>
+                        <a href="index.html">Who We Are</a>
+                        <a href="products.html">Products</a>
+                        <a href="stories.html">Stories</a>
+                        <a href="careers.html">Careers</a>
+                        <a href="contact.html">Contact</a>
                   </div>
               </div>
-
+              <div class="col-2">          
+                  <div class="Home-Who-We-Are-Prod-Social">
+                    <a href="#"><img src="svg/instagram.svg"class="social-icons"></a>
+                    <a href="#"><img src="svg/facebook.svg"class="social-icons"></a>
+                    <a href="#"><img src="svg/twitter.svg"class="social-icons"></a>
+                    <a href="#"><img src="svg/youtube.svg"class="social-icons"></a>
+                  </div>
+              </div>
+        </div>
     </div>
   </section>
 </footer>
-</section>
+</div>
 <!-- // End Rectangle-Copy-3 Footer Section 
  =========================-->
-   
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "305px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<!-- hamburger menu css script -->
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
    </body>
 </html>
